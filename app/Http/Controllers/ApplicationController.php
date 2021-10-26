@@ -123,5 +123,10 @@ class ApplicationController extends Controller
 
         return view('pages.summarized_comments');
     }
+    public function manageOrders()
+    {   
+
+        return view('pages.manage_orders');
+    }
 
 }

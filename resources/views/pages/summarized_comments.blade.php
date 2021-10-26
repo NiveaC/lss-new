@@ -22,7 +22,7 @@
       <div class="col s12 m6 l3 card-width">
         <div class="card border-radius-6">
           <div class="card-content center-align">
-            <a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="comments_popup">
+            <a class="waves-effect waves-block waves-light" href="#" data-target="comments_popup">
               <i class="material-icons">format_indent_increase</i>
             </a>
             <p>Delivery</p>
