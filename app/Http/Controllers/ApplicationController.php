@@ -128,5 +128,10 @@ class ApplicationController extends Controller
 
         return view('pages.manage_orders');
     }
+    public function luckyDraw()
+    {   
+
+        return view('pages.lucky_draw');
+    }
 
 }

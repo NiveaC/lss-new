@@ -68,7 +68,7 @@
                 <th>Order NO.</th>
                 <th>FB Image</th>
                 <th>FB Name</th>
-                <th>Total Item</th>
+                <th>Total Items</th>
                 <th>Amount</th>
                 <th>Payment</th>
                 <th>Status</th>
