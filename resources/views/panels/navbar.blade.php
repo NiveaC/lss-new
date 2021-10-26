@@ -4,7 +4,7 @@
     <div class="nav-wrapper">
       <!-- 標題 -->
       <div class="header-search-wrapper hide-on-med-and-down">
-        <h3 class="breadcrumbs-title mt-0 mb-3 breadcrumb_font" style="font-size:24pt; text-align:center;"><span>@yield('title') </span></h3>
+        <h3 class="breadcrumbs-title mt-0 mb-3 breadcrumb_font white-text" style="font-size:20pt;"><span>@yield('title') </span></h3>
       </div>
       <ul class="navbar-list right">
         <li class="dropdown-language">
