@@ -21,18 +21,17 @@
     <div id="comments_row" class="row" style="padding: 0 30pt;">
       <div class="col s12 m6 l3 card-width">
         <div class="card border-radius-6">
-          <div class="card-content center-align">
-            <a class="waves-effect waves-block waves-light" href="#" data-target="comments_popup">
-              <i class="material-icons">format_indent_increase</i>
-            </a>
-            <p>Delivery</p>
+        <div class="card-content center-align">
+            <a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="comments_popup"><span class="material-icons amber-text small-ico-bg mb-5">paid</span></a>
+            <h4 class="m-0"><b>1.6k</b></h4>
+            <p>Shipping Fee</p>
           </div>
         </div>
       </div>
       <div class="col s12 m6 l3 card-width">
         <div class="card border-radius-6">
           <div class="card-content center-align">
-            <span class="material-icons amber-text small-ico-bg mb-5">paid</span>
+            <a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="comments_popup"><span class="material-icons amber-text small-ico-bg mb-5">paid</span></a>
             <h4 class="m-0"><b>1.6k</b></h4>
             <p>Shipping Fee</p>
           </div>
@@ -135,6 +134,7 @@
     </div>
   </div>
 </div>
+@include('pages.sidebar.comments_popup')
 @endsection
 
 {{-- vendor scripts --}}

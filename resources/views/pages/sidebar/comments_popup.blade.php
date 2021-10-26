@@ -1,3 +1,8 @@
+{{-- page style --}}
+@section('page-style')
+<link rel="stylesheet" type="text/css" href="{{asset('css/pages/lss.css')}}">
+@endsection
+
 <!-- START RIGHT SIDEBAR NAV -->
 <aside id="comments_popup_right">
   <div id="comments_popup" class="comments_popup sidenav rightside-navigation">
@@ -5,14 +10,16 @@
       <div class="slide-out-right-title">
         <div class="col s12 border-bottom-1 pb-0 pt-1">
           <div class="row">
-            <div class="col s2 pr-0 center">
+            <div class="col s2 pr-0 pt-1 center">
               <i class="material-icons vertical-text-middle"><a href="#" class="sidenav-close">clear</a></i>
             </div>
-            <div class="col s10 pl-0">
-              <ul class="tabs">
+            <div class="col s10 pl-2 mb-1 pt-0">
+              <h5 class="subject_title" style="width:500px;">Delivery</h5>
+
+              <!-- <ul class="tabs">
                 <li class="tab col s4 p-0">
                   <a href="#messages" class="active">
-                    <span>Messages</span>
+                    <span>Delivery</span>
                   </a>
                 </li>
                 <li class="tab col s4 p-0">
@@ -25,7 +32,7 @@
                     <span>Activity</span>
                   </a>
                 </li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
@@ -41,7 +48,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Elizabeth Elliott</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Thank you</p>
                 </div>
@@ -53,7 +60,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Mary Adams</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Hello Boo</p>
                 </div>
@@ -65,7 +72,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Caleb Richards</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Hello Boo</p>
                 </div>
@@ -77,7 +84,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Caleb Richards</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Keny !</p>
                 </div>
@@ -89,7 +96,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">June Lane</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Ohh God</p>
                 </div>
@@ -101,7 +108,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Edward Fletcher</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Love you</p>
                 </div>
@@ -113,7 +120,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Crystal Bates</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Can we</p>
                 </div>
@@ -125,7 +132,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Nathan Watts</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Great!</p>
                 </div>
@@ -137,7 +144,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Willard Wood</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Do it</p>
                 </div>
@@ -149,7 +156,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Ronnie Ellis</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Got that</p>
                 </div>
@@ -161,7 +168,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Daniel Russell</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Thank you</p>
                 </div>
@@ -173,7 +180,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Sarah Graves</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Okay you</p>
                 </div>
@@ -185,7 +192,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Andrew Hoffman</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Can do</p>
                 </div>
@@ -197,7 +204,7 @@
                     alt="avatar" />
                   <i></i>
                 </span>
-                <div class="user-content">
+                <div class="user-content pl-2 pt-2">
                   <h6 class="line-height-0">Camila Lynch</h6>
                   <p class="medium-small blue-grey-text text-lighten-3 pt-3">Leave it</p>
                 </div>
