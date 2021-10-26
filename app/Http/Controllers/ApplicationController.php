@@ -118,4 +118,10 @@ class ApplicationController extends Controller
 
         return view('pages.campaign_live');
     }
+    public function summarizedComments()
+    {   
+
+        return view('pages.summarized_comments');
+    }
+
 }

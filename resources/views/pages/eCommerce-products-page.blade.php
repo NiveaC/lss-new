@@ -16,6 +16,7 @@
 {{-- page style --}}
 @section('page-style')
 <link rel="stylesheet" type="text/css" href="{{asset('css/pages/data-tables.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('css/pages/lss.css')}}">
 @endsection
 
 {{-- page content --}}
@@ -28,7 +29,7 @@
       <a class="btn_style waves-effect waves-light btn mb-1 mr-1" style="border-radius:30pt; background-color:#ffffff; color:#ff4081;">Archive</a>
     </div>
     <div class="col s12 m4 offset-m1 l3 xl3 offset-xl2 right-align">
-      <a class="waves-effect indigo darken-4 btn mb-1 mr-1"><i class="material-icons left" style="margin-right:0;">add</i>Add Item</a>
+      <a class="btn waves-effect indigo darken-4 mb-1 mr-1"><i class="material-icons left" style="margin-right:0;">add</i>Add Item</a>
     </div>
   </div>
 </div>
@@ -43,10 +44,10 @@
               <thead>
                   <tr>
                     <th>Image</th>
-                    <th>Item</th>
+                    <th>Name</th>
                     <th>Order Code</th>
                     <th>Type</th>
-                    <th>Category</th>
+                    <th>Tag</th>
                     <th>Description</th>
                     <th>Q'ty</th>
                     <th>Price</th>

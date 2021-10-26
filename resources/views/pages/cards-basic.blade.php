@@ -267,12 +267,11 @@
 
 <!--Tabs in Cards-->
 <div id="tabs-in-card" class="section">
-  <h4 class="header">Tabs in Cards</h4>
-  <p>For a simpler card with less markup, try using a card panel which just has padding and a shadow effect</p>
   <div class="row">
     <div class="col s12 m6">
       <h6 class="light">White</h6>
-      <div class="card">
+      <div class="
+      card">
         <div class="card-content">
           <p>
             I am a very simple card. I am good at containing small bits of information. I am

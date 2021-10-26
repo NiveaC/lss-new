@@ -23,7 +23,7 @@
 @section('content')
 <div class="row">
   <div class="col s12 m12 l12 pr-0 mb-2 center-align">
-    <div class="col s10 m11 l11 xl11">
+    <div class="col s10 m11 l11 xl10 offset-xl1">
       <span class="title" style="font-size:24pt; color:#ffffff;">Campaign</span>
     </div>
     <div class="col s2 m1 l1 xl1 right-align">
@@ -42,7 +42,7 @@
     </div>
   </div>
 </div>
-<div class="section section-data-tables">
+<div class="section section-data-tables campaign">
   <div class="row">
     <div class="col s12">
       <div class="card">
@@ -62,165 +62,165 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><button class="enter_btn waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
+                    <td><button class="enter_btn btn waves-effect white black-text darken-text-2 waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
                     <td>211008</td>
-                    <td><a href="https://ppfocus.com/0/die9e8189.html"></a></td>
+                    <td class="truncate"><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                     <td>2021/10/10</td>
                     <td>2021/10/15</td>
                     <td>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img">Manage Order</a>
+                    <button class="action_btn btn waves-effect indigo darken-1 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img white-text">Manage Order</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#">Manage Products</a>
+                    <button class="action_btn btn waves-effect indigo darken-1 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#" class="action_img white-text">Manage Products</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#">Edit</a>
+                    <button class="action_btn btn waves-effect indigo darken-1 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#" class="action_img white-text">Edit</a>
                     </button>
                     </td>
                   </tr>
                   <tr>
-                    <td><button class="enter_btn waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
+                    <td><button class="enter_btn btn waves-effect white black-text darken-text-2 waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
                     <td>211009</td>
-                    <td>https://ppfocus.com/0/die9e8189.html</td>
+                    <td class="truncate">https://ppfocus.com/0/die9e8189.html</td>
                     <td>2021/10/10</td>
                     <td>2021/10/15</td>
                     <td>
-                    <!-- <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img">Manage Order</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img white-text">Manage Order</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#">Manage Products</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#" class="action_img white-text">Manage Products</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#">Edit</a>
-                    </button> -->
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#" class="action_img white-text">Edit</a>
+                    </button>
                     </td>
                   </tr>
                   <tr>
-                    <td><button class="enter_btn waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
+                    <td><button class="enter_btn btn waves-effect white black-text darken-text-2 waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
                     <td>211010</td>
-                    <td>https://ppfocus.com/0/die9e8189.html</td>
+                    <td class="truncate">https://ppfocus.com/0/die9e8189.html</td>
                     <td>2021/10/10</td>
                     <td>2021/10/15</td>
                     <td>
-                    <!-- <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img">Manage Order</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img white-text">Manage Order</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#">Manage Products</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#" class="action_img white-text">Manage Products</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#">Edit</a>
-                    </button> -->
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#" class="action_img white-text">Edit</a>
+                    </button>
                     </td>
                   </tr>
                   <tr>
-                    <td><button class="enter_btn waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
+                    <td><button class="enter_btn btn waves-effect white black-text darken-text-2 waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
                     <td>211011</td>
                     <td></td>
                     <td>2021/10/10</td>
                     <td>2021/10/15</td>
                     <td>
-                    <!-- <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img">Manage Order</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img white-text">Manage Order</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#">Manage Products</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#" class="action_img white-text">Manage Products</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#">Edit</a>
-                    </button> -->
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#" class="action_img white-text">Edit</a>
+                    </button>
                     </td>
                   </tr>
                   <tr>
-                    <td><button class="enter_btn waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
+                    <td><button class="enter_btn btn waves-effect white black-text darken-text-2 waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
                     <td>211012</td>
                     <td>https://ppfocus.com/0/die9e8189.html</a></td>
                     <td>2021/10/10</td>
                     <td>2021/10/15</td>
                     <td>
-                    <!-- <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img">Manage Order</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img white-text">Manage Order</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#">Manage Products</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#" class="action_img white-text">Manage Products</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#">Edit</a>
-                    </button> -->
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#" class="action_img white-text">Edit</a>
+                    </button>
                     </td>
                   </tr>
                   <tr>
-                    <td><button class="enter_btn waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
+                    <td><button class="enter_btn btn waves-effect white black-text darken-text-2 waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
                     <td>211013</td>
                     <td></td>
                     <td>2021/10/10</td>
                     <td>2021/10/15</td>
                     <td>
-                    <!-- <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img">Manage Order</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img white-text">Manage Order</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#">Manage Products</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#" class="action_img white-text">Manage Products</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#">Edit</a>
-                    </button> -->
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#" class="action_img white-text">Edit</a>
+                    </button>
                     </td>
                   </tr>
                   <tr>
-                    <td><button class="enter_btn waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
+                    <td><button class="enter_btn btn waves-effect white black-text darken-text-2 waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
                     <td>211014</td>
                     <td>https://ppfocus.com/0/die9e8189.html</a></td>
                     <td>2021/10/10</td>
                     <td>2021/10/15</td>
                     <td>
-                    <!-- <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img">Manage Order</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img white-text">Manage Order</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#">Manage Products</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#" class="action_img white-text">Manage Products</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#">Edit</a>
-                    </button> -->
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#" class="action_img white-text">Edit</a>
+                    </button>
                     </td>
                   </tr>
                   <tr>
-                    <td><button class="enter_btn waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
+                    <td><button class="enter_btn btn waves-effect white black-text darken-text-2 waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
                     <td>211015</td>
                     <td></td>
                     <td>2021/10/10</td>
                     <td>2021/10/15</td>
                     <td>
-                    <!-- <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img">Manage Order</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img white-text">Manage Order</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#">Manage Products</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#" class="action_img white-text">Manage Products</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#">Edit</a>
-                    </button> -->
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#" class="action_img white-text">Edit</a>
+                    </button>
                     </td>
                   </tr>
                   <tr>
-                    <td><button class="enter_btn waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
+                    <td><button class="enter_btn btn waves-effect white black-text darken-text-2 waves-effect"><img src="{{asset('images/lss-icon/enter.png')}}" class="enter_img" alt="Enter">Enter</button></td>
                     <td>211016</td>
                     <td></td>
                     <td>2021/10/10</td>
                     <td>2021/10/15</td>
                     <td>
-                    <!-- <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img">Manage Order</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/order.png')}}" class="action_img" alt="Manage Order"><a href="#" class="action_img white-text">Manage Order</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#">Manage Products</a>
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/price-tag.png')}}" class="action_img" alt="Manage Products"><a href="#" class="action_img white-text">Manage Products</a>
                     </button>
-                    <button class="action_btn btn waves-effect mr-1" type="submit" name="action">
-                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#">Edit</a>
-                    </button> -->
+                    <button class="action_btn btn waves-effect indigo darken-4 border-round mb-1 mr-1" type="submit" name="action">
+                      <img src="{{asset('images/lss-icon/edit.png')}}" class="action_img" alt="Edit"><a href="#" class="action_img white-text">Edit</a>
+                    </button>
                     </td>
                   </tr>
                 </tbody>

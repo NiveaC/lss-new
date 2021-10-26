@@ -2,7 +2,7 @@
 {{-- vertical-modern-menu breadcrumb --}}
 
 
-<div class="breadcrumbs-dark pb-0 pt-4" id="breadcrumbs-wrapper">
+<div class="breadcrumbs-dark pt-0 pb-0" id="breadcrumbs-wrapper">
   <!-- Search for small screen-->
   <div class="container">
     <div class="row">

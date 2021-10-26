@@ -292,41 +292,41 @@
           </div>
           <div id="html-avatar">
             <pre><code class="language-markup">
-  &lt;ul class="collection">
-    &lt;li class="collection-item avatar">
-      &lt;img src="../../../images/avatar/avatar-7.png" alt="" class="circle">
-      &lt;span class="title">Title&lt;/span>
-      &lt;p>First Line &lt;br>
-      Second Line
-      &lt;/p>
-      &lt;a href="#!" class="secondary-content">&lt;i class="material-icons">grade&lt;/i>&lt;/a>
-    &lt;/li>
-    &lt;li class="collection-item avatar">
-      &lt;i class="material-icons circle">folder&lt;/i>
-      &lt;span class="title">Title&lt;/span>
-      &lt;p>First Line &lt;br>
-      Second Line
-      &lt;/p>
-      &lt;a href="#!" class="secondary-content">&lt;i class="material-icons">grade&lt;/i>&lt;/a>
-    &lt;/li>
-    &lt;li class="collection-item avatar">
-      &lt;i class="material-icons circle green">insert_chart&lt;/i>
-      &lt;span class="title">Title&lt;/span>
-      &lt;p>First Line &lt;br>
-      Second Line
-      &lt;/p>
-      &lt;a href="#!" class="secondary-content">&lt;i class="material-icons">grade&lt;/i>&lt;/a>
-    &lt;/li>
-    &lt;li class="collection-item avatar">
-      &lt;i class="material-icons circle red">play_arrow&lt;/i>
-      &lt;span class="title">Title&lt;/span>
-      &lt;p>First Line &lt;br>
-      Second Line
-      &lt;/p>
-      &lt;a href="#!" class="secondary-content">&lt;i class="material-icons">grade&lt;/i>&lt;/a>
-    &lt;/li>
-  &lt;/ul>
-  </code></pre>
+          &lt;ul class="collection">
+            &lt;li class="collection-item avatar">
+              &lt;img src="../../../images/avatar/avatar-7.png" alt="" class="circle">
+              &lt;span class="title">Title&lt;/span>
+              &lt;p>First Line &lt;br>
+              Second Line
+              &lt;/p>
+              &lt;a href="#!" class="secondary-content">&lt;i class="material-icons">grade&lt;/i>&lt;/a>
+            &lt;/li>
+            &lt;li class="collection-item avatar">
+              &lt;i class="material-icons circle">folder&lt;/i>
+              &lt;span class="title">Title&lt;/span>
+              &lt;p>First Line &lt;br>
+              Second Line
+              &lt;/p>
+              &lt;a href="#!" class="secondary-content">&lt;i class="material-icons">grade&lt;/i>&lt;/a>
+            &lt;/li>
+            &lt;li class="collection-item avatar">
+              &lt;i class="material-icons circle green">insert_chart&lt;/i>
+              &lt;span class="title">Title&lt;/span>
+              &lt;p>First Line &lt;br>
+              Second Line
+              &lt;/p>
+              &lt;a href="#!" class="secondary-content">&lt;i class="material-icons">grade&lt;/i>&lt;/a>
+            &lt;/li>
+            &lt;li class="collection-item avatar">
+              &lt;i class="material-icons circle red">play_arrow&lt;/i>
+              &lt;span class="title">Title&lt;/span>
+              &lt;p>First Line &lt;br>
+              Second Line
+              &lt;/p>
+              &lt;a href="#!" class="secondary-content">&lt;i class="material-icons">grade&lt;/i>&lt;/a>
+            &lt;/li>
+          &lt;/ul>
+          </code></pre>
           </div>
         </div>
       </div>

@@ -59,6 +59,7 @@ Route::get('/eCommerce-products-details-page', [ApplicationController::class, 'e
 Route::get('/eCommerce-pricing', [ApplicationController::class, 'eCommercePricing']);
 Route::get('/campaign', [ApplicationController::class, 'campaign']);
 Route::get('/campaign_live', [ApplicationController::class, 'campaignLive']);
+Route::get('/summarized_comments', [ApplicationController::class, 'summarizedComments']);
  
 // User profile Route
 Route::get('/user-profile-page', [UserProfileController::class, 'userProfile']);

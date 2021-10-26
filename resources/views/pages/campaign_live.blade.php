@@ -2,410 +2,436 @@
 @extends('layouts.contentLayoutMaster')
 
 {{-- Page title --}}
-@section('title','Chat')
+@section('title','Campaign_live')
+
+{{-- vendor styles --}}
+@section('vendor-style')
+<link rel="stylesheet" type="text/css" href="{{asset('vendors/flag-icon/css/flag-icon.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('vendors/data-tables/css/jquery.dataTables.min.css')}}">
+<link rel="stylesheet" type="text/css"
+  href="{{asset('vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('vendors/data-tables/css/select.dataTables.min.css')}}">
+@endsection
 
 {{-- page styles --}}
 @section('page-style')
-<link rel="stylesheet" type="text/css" href="{{asset('css/pages/app-chat.css')}}">
+<!-- <link rel="stylesheet" type="text/css" href="{{asset('css/pages/css-media.css')}}"> -->
+<link rel="stylesheet" type="text/css" href="{{asset('css/pages/lss.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('css/pages/data-tables.css')}}">
 @endsection
 
 {{-- main page content --}}
 @section('content')
-<div class="chat-application">
-  <div class="chat-content-head">
-    <div class="header-details">
-      <h5 class="m-0 sidebar-title"><i class="material-icons app-header-icon text-top">mail_outline</i> Chat</h5>
-    </div>
-  </div>
-  <div class="app-chat">
-    <div class="content-area content-right">
-      <div class="app-wrapper">
-        <!-- Sidebar menu for small screen -->
-        <a href="#" data-target="chat-sidenav" class="sidenav-trigger hide-on-large-only">
-          <i class="material-icons">menu</i>
-        </a>
-        <!--/ Sidebar menu for small screen -->
-
-        <div class="card card card-default scrollspy border-radius-6 fixed-width">
-          <div class="card-content chat-content p-0">
-            <!-- Sidebar Area -->
-            <div class="sidebar-left sidebar-fixed animate fadeUp animation-fast">
-              <div class="sidebar animate fadeUp">
-                <div class="sidebar-content">
-                  <div id="sidebar-list" class="sidebar-menu chat-sidebar list-group position-relative">
-                    <div class="sidebar-list-padding app-sidebar sidenav" id="chat-sidenav">
-                      <!-- Sidebar Header -->
-                      <!-- <div class="sidebar-header">
-                        <div class="row valign-wrapper">
-                          <div class="col s2 media-image pr-0">
-                            <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle z-depth-2 responsive-img">
-                          </div>
-                          <div class="col s10">
-                            <p class="m-0 blue-grey-text text-darken-4 font-weight-700">Lawrence Collins</p>
-                            <p class="m-0 info-text">Apple pie bonbon cheesecake tiramisu</p>
-                          </div>
-                        </div>
-                        <span class="option-icon">
-                          <i class="material-icons">more_vert</i>
-                        </span>
-                      </div> -->
-                      <!--/ Sidebar Header -->
-
-                      <!-- Sidebar Search -->
-                      <!-- <div class="sidebar-search animate fadeUp">
-                        <div class="search-area">
-                          <i class="material-icons search-icon">search</i>
-                          <input type="text" placeholder="Search Chat" class="app-filter" id="chat_filter">
-                        </div>
-                        <div class="add-user">
-                          <a href="#">
-                            <i class="material-icons mr-2 add-user-icon">person_add</i>
-                          </a>
-                        </div>
-                      </div> -->
-                      <!--/ Sidebar Search -->
-
-                      <!-- Sidebar Content List -->
-                      <div class="sidebar-content sidebar-chat">
-                        <div class="chat-list">
-                          <div class="chat-user animate fadeUp delay-1">
-                            <div class="user-section">
-                              <div class="row valign-wrapper">
-                                <div class="col s2 media-image online pr-0">
-                                  <img src="{{asset('images/user/2.jpg')}}" alt=""
-                                    class="circle z-depth-2 responsive-img">
-                                </div>
-                                <div class="col s10">
-                                  <p class="m-0 blue-grey-text text-darken-4 font-weight-700">Gorge Fernandis</p>
-                                  <p class="m-0 info-text">Apple pie bonbon cheesecake tiramisu</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="info-section">
-                              <div class="star-timing">
-                                <div class="favorite">
-                                  <i class="material-icons amber-text">star</i>
-                                </div>
-                                <div class="time">
-                                  <span>2.38 pm</span>
-                                </div>
-                              </div>
-                              <span class="badge badge pill red">4</span>
-                            </div>
-                          </div>
-                          <div class="chat-user animate fadeUp delay-2 active">
-                            <div class="user-section">
-                              <div class="row valign-wrapper">
-                                <div class="col s2 media-image online pr-0">
-                                  <img src="{{asset('images/user/7.jpg')}}" alt=""
-                                    class="circle z-depth-2 responsive-img">
-                                </div>
-                                <div class="col s10">
-                                  <p class="m-0 blue-grey-text text-darken-4 font-weight-700">Alice Hawker</p>
-                                  <p class="m-0 info-text">Apple pie bonbon cheesecake tiramisu</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="info-section">
-                              <div class="star-timing">
-                                <div class="time">
-                                  <span>12.58 pm</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="chat-user animate fadeUp delay-3">
-                            <div class="user-section">
-                              <div class="row valign-wrapper">
-                                <div class="col s2 media-image away pr-0">
-                                  <img src="{{asset('images/user/10.jpg')}}" alt=""
-                                    class="circle z-depth-2 responsive-img">
-                                </div>
-                                <div class="col s10">
-                                  <p class="m-0 blue-grey-text text-darken-4 font-weight-700">Pari Kalin</p>
-                                  <p class="m-0 info-text">Apple pie bonbon cheesecake tiramisu</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="info-section">
-                              <div class="star-timing">
-                                <div class="time">
-                                  <span>10.00 am</span>
-                                </div>
-                              </div>
-                              <span class="badge badge pill red">6</span>
-                            </div>
-                          </div>
-                          <div class="chat-user animate fadeUp delay-4">
-                            <div class="user-section">
-                              <div class="row valign-wrapper">
-                                <div class="col s2 media-image offline pr-0">
-                                  <img src="{{asset('images/user/4.jpg')}}" alt=""
-                                    class="circle z-depth-2 responsive-img">
-                                </div>
-                                <div class="col s10">
-                                  <p class="m-0 blue-grey-text text-darken-4 font-weight-700">Alin Kystal</p>
-                                  <p class="m-0 info-text">Apple pie bonbon cheesecake tiramisu</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="info-section">
-                              <div class="star-timing">
-                                <div class="time">
-                                  <span>7.44 am</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="chat-user animate fadeUp delay-5">
-                            <div class="user-section">
-                              <div class="row valign-wrapper">
-                                <div class="col s2 media-image pr-0">
-                                  <img src="{{asset('images/user/8.jpg')}}" alt=""
-                                    class="circle z-depth-2 responsive-img">
-                                </div>
-                                <div class="col s10">
-                                  <p class="m-0 blue-grey-text text-darken-4 font-weight-700">Amy berry</p>
-                                  <p class="m-0 info-text">Apple pie bonbon cheesecake tiramisu</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="info-section">
-                              <div class="star-timing">
-                                <div class="favorite">
-                                  <i class="material-icons amber-text">star</i>
-                                </div>
-                                <div class="time">
-                                  <span>5 hours</span>
-                                </div>
-                              </div>
-                              <span class="badge badge pill red">1</span>
-                            </div>
-                          </div>
-                          <div class="chat-user animate fadeUp delay-5">
-                            <div class="user-section">
-                              <div class="row valign-wrapper">
-                                <div class="col s2 media-image pr-0">
-                                  <img src="{{asset('images/user/1.jpg')}}" alt=""
-                                    class="circle z-depth-2 responsive-img">
-                                </div>
-                                <div class="col s10">
-                                  <p class="m-0 blue-grey-text text-darken-4 font-weight-700">John Doe</p>
-                                  <p class="m-0 info-text">Apple pie bonbon cheesecake tiramisu</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="info-section">
-                              <div class="star-timing">
-                                <div class="time">
-                                  <span>20 hours</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="chat-user animate fadeUp delay-5">
-                            <div class="user-section">
-                              <div class="row valign-wrapper">
-                                <div class="col s2 media-image away pr-0">
-                                  <img src="{{asset('images/user/9.jpg')}}" alt=""
-                                    class="circle z-depth-2 responsive-img">
-                                </div>
-                                <div class="col s10">
-                                  <p class="m-0 blue-grey-text text-darken-4 font-weight-700">Kellin Blue</p>
-                                  <p class="m-0 info-text">Apple pie bonbon cheesecake tiramisu</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="info-section">
-                              <div class="star-timing">
-                                <div class="time">
-                                  <span>Yesterday</span>
-                                </div>
-                              </div>
-                              <span class="badge badge pill red">3</span>
-                            </div>
-                          </div>
-                          <div class="chat-user animate fadeUp delay-5">
-                            <div class="user-section">
-                              <div class="row valign-wrapper">
-                                <div class="col s2 media-image offline pr-0">
-                                  <img src="{{asset('images/user/5.jpg')}}" alt=""
-                                    class="circle z-depth-2 responsive-img">
-                                </div>
-                                <div class="col s10">
-                                  <p class="m-0 blue-grey-text text-darken-4 font-weight-700">Albert Henry</p>
-                                  <p class="m-0 info-text">Apple pie bonbon cheesecake tiramisu</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="info-section">
-                              <div class="star-timing">
-                                <div class="time">
-                                  <span>2 days ago</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="no-data-found">
-                          <h6 class="center">No Results Found</h6>
-                        </div>
+<div class="campaign_live">
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <!-- live streaming -->
+      <div class="live_streaming">
+        <div class="">
+          <div class="col s12 m12 l4">
+            <div id="video-two" class="mr-0">
+              <div class="video-container no-controls" style="width: 250pt; height: 500pt; margin-top:14pt;">
+                <iframe width="200" height="600" src="https://www.youtube.com/embed/Skpu5HaVkOc" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- comment+products+incoming orders -->
+      <div class="comment">
+        <div class="col s12 m12 l8">
+          <div id="tabs-in-card" class="section">
+            <div class="card">
+              <!-- Title+User -->
+              <div class="card-content pb-0">
+                <div class="row">
+                  <div class="col s12 m12 l12">
+                    <div class="col s9 m9 l6">
+                      <div class="campaign_title">Title 211025</div>
+                    </div>
+                    <div class="col s3 m3 l5 offset-l1">
+                      <div class="col s2 pr-0 mt-1 circle">
+                        <a href="#"><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
                       </div>
-                      <!--/ Sidebar Content List -->
+                      <div class="col s10 user_name hide-on-med-and-down">
+                        <a href="#">
+                          <p class="m-5" style="">快賣</p>
+                        </a>
+                      </div>  
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="card">
+                <div class="row">
+                  <div class="col s12 m12 l12">
+                    <div class="col s9 m8 l8">
+                      <div class="card-tabs">
+                        <ul class="tabs tabs-fixed-width tab_font">
+                          <li class="tab"><a href="#test4">Comment</a></li>
+                          <li class="tab"><a class="active" href="#test5">Product</a></li>
+                          <li class="tab"><a href="#test6">Incoming Orders</a></li>
+                        </ul>
+                      </div>
+                    </div>  
+                    <div class="col s3 m4 l4 mt-1">
+                    <a class="waves-effect waves-light btn mr-1 border-round">
+                    <i class="material-icons show-on-small">redeem</i><span class=" hide-on-small-only">Lucky Draw</span></a>
+
+                      <!-- <a class="btn-floating mb-1 btn-large waves-effect waves-light mr-1 hide-on-med-and-down">
+                        <i class="material-icons">redeem</i>
+                      </a>
+                      <a class="luckdraw_btn waves-effect waves-light btn-large border-round hide-on-small-only">
+                      Lucky Draw</a> -->
+                    </div> 
+                  </div>
+                </div>
+                <!-- comment -->
+                <!-- <div class="card-content grey lighten-4"> -->
+                  <div id="test4">
+                    <div id="avatar-content" class="card card-tabs">
+                      <div class="card-content">
+                        <div id="view-avatar">
+                          <div class="row">
+                            <div class="col s12">
+                              <ul class="collection">
+                                <li class="collection-item avatar">
+                                  <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
+                                  <span class="title">Name</span>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="collection-item avatar">
+                                <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
+                                  <span class="title">Name</span>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                  </p>
+                                </li>
+                                <li class="collection-item avatar">
+                                <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
+                                  <span class="title">Name</span>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="collection-item avatar">
+                                <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
+                                  <span class="title">Name</span>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- product -->
+                  <div id="test5">
+                    <div id="avatar-content product_content" class="card card-tabs">
+                      <div class="card-content" style="padding: 20px;">
+                        <div id="view-avatar">
+                          <div class="row">
+                            <div class="col s12">
+                              <a class="waves-effect waves-light btn mb-1">
+                              <i class="material-icons left" style="margin-right:0;">add</i>Instantly Add Product</a>
+                              <ul class="collection">
+                                <li class="product_info product_avatar">
+                                  <div class="row">
+                                    <div class="col s12 m12 l12">
+                                      <div class="col s12 m7 l8" style="padding-left: 65px;">
+                                        <img src="{{asset('images/cheese cake.jpg')}}" alt="" class="circle" style="height: 42pt; width: 42pt; position: absolute; left: 15px;">
+                                          <span class="title">Cheese Cake</span>
+                                          <p>First Line
+                                            <br> Second Line
+                                          </p>
+                                      </div>
+                                      <div class="col s12 m5 l4">
+                                        <a class="activate_btn waves-effect waves-light btn mb-1 border-round secondary-content">
+                                          Activate
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="product_info product_avatar">
+                                  <div class="row">
+                                    <div class="col s12 m12 l12">
+                                      <div class="col s12 m7 l8" style="padding-left: 65px;">
+                                        <img src="{{asset('images/egg tart.jpg')}}" alt="" class="circle" style="height: 42pt; width: 42pt; position: absolute; left: 15px;">
+                                          <span class="title">Egg Tart</span>
+                                          <p>First Line
+                                            <br> Second Line
+                                          </p>
+                                      </div>
+                                      <div class="col s12 m5 l4">
+                                        <a class="activate_btn waves-effect waves-light btn mb-1 border-round secondary-content">
+                                          Activate
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="product_info product_avatar">
+                                  <div class="row">
+                                    <div class="col s12 m12 l12">
+                                      <div class="col s12 m7 l8" style="padding-left: 65px;">
+                                        <img src="{{asset('images/carrot cake.jpg')}}" alt="" class="circle" style="height: 42pt; width: 42pt; position: absolute; left: 15px;">
+                                          <span class="title">Carrot Cake</span>
+                                          <p>First Line
+                                            <br> Second Line
+                                          </p>
+                                      </div>
+                                      <div class="col s12 m5 l4">
+                                        <a class="activate_btn waves-effect waves-light btn mb-1 border-round secondary-content">
+                                          Activate
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="product_info product_avatar">
+                                  <div class="row">
+                                    <div class="col s12 m12 l12">
+                                      <div class="col s12 m7 l8" style="padding-left: 65px;">
+                                        <img src="{{asset('images/tiramisu.jpg')}}" alt="" class="circle" style="height: 42pt; width: 42pt; position: absolute; left: 15px;">
+                                          <span class="title">Tiramisu</span>
+                                          <p>First Line
+                                            <br> Second Line
+                                          </p>
+                                      </div>
+                                      <div class="col s12 m5 l4">
+                                        <a class="deactivate_btn waves-effect waves-light btn mb-1 border-round secondary-content">
+                                          Deactivate
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Incomming orders -->
+                  <div id="test6">
+                    <div class="row">
+                      <div class="col s12">
+                        <div class="card">
+                          <div class="card-content pt-0">
+                            <div class="col s12 mt-3">
+                              <a class="btn mb-1 waves-effect waves-light">
+                                <i class="material-icons left">message</i> Summarize Comments</a>
+                              <a class="btn mb-1 waves-effect waves-light">
+                                <i class="material-icons left">list_alt</i> Manage Order</a>
+                              <a class="btn mb-1 waves-effect waves-light">
+                                <i class="material-icons left">file_upload</i> Export</a>
+                            </div>
+                            <div class="row">
+                              <div class="col s12">
+                                <table id="page-length-option" class="display">
+                                  <thead>
+                                    <tr>
+                                      <th>Order NO.</th>
+                                      <th>Photo</th>
+                                      <th>Name</th>
+                                      <th>Phone</th>
+                                      <th>Amount</th>
+                                      <th>Payment</th>
+                                      <th>Status</th>
+                                      <th>View</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Tiger Nixon</td>
+                                      <td>System Architect</td>
+                                      <td>Edinburgh</td>
+                                      <td>61</td>
+                                      <td>2011/04/25</td>
+                                      <td>$320,800</td>
+                                    </tr>
+                                  </tbody>
+                                  <tfoot>
+                                  </tfoot>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- </div> -->
+              </div>
             </div>
-            <!--/ Sidebar Area -->
-
-            <!-- Content Area -->
-            <!-- <div class="chat-content-area animate fadeUp"> -->
-              <!-- Chat header -->
-              <!-- <div class="chat-header">
-                <div class="row valign-wrapper">
-                  <div class="col media-image online pr-0">
-                    <img src="{{asset('images/user/7.jpg')}}" alt="" class="circle z-depth-2 responsive-img">
-                  </div>
-                  <div class="col">
-                    <p class="m-0 blue-grey-text text-darken-4 font-weight-700">Alice Hawker</p>
-                    <p class="m-0 chat-text truncate">Apple pie bonbon cheesecake tiramisu</p>
-                  </div>
-                </div>
-                <span class="option-icon">
-                  <span class="favorite">
-                    <i class="material-icons">star_outline</i>
-                  </span>
-                  <i class="material-icons">delete</i>
-                  <i class="material-icons">more_vert</i>
-                </span>
-              </div> -->
-              <!--/ Chat header -->
-
-              <!-- Chat content area -->
-              <!-- <div class="chat-area">
-                <div class="chats">
-                  <div class="chats">
-                    <div class="chat chat-right">
-                      <div class="chat-avatar">
-                        <a class="avatar">
-                          <img src="{{asset('images/user/12.jpg')}}" class="circle" alt="avatar" />
-                        </a>
-                      </div>
-                      <div class="chat-body">
-                        <div class="chat-text">
-                          <p>How can we help? We're here for you!</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="chat">
-                      <div class="chat-avatar">
-                        <a class="avatar">
-                          <img src="{{asset('images/user/7.jpg')}}" class="circle" alt="avatar" />
-                        </a>
-                      </div>
-                      <div class="chat-body">
-                        <div class="chat-text">
-                          <p>Hey John, I am looking for the best admin template. Could you please help me to find it
-                            out?</p>
-                        </div>
-                        <div class="chat-text">
-                          <p>It should be material css compatible.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="chat chat-right">
-                      <div class="chat-avatar">
-                        <a class="avatar">
-                          <img src="{{asset('images/user/12.jpg')}}" class="circle" alt="avatar" />
-                        </a>
-                      </div>
-                      <div class="chat-body">
-                        <div class="chat-text">
-                          <p>Absolutely!</p>
-                        </div>
-                        <div class="chat-text">
-                          <p>Materialize admin is the responsive material admin template.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="chat">
-                      <div class="chat-avatar">
-                        <a class="avatar">
-                          <img src="{{asset('images/user/7.jpg')}}" class="circle" alt="avatar" />
-                        </a>
-                      </div>
-                      <div class="chat-body">
-                        <div class="chat-text">
-                          <p>Looks clean and fresh UI.</p>
-                        </div>
-                        <div class="chat-text">
-                          <p>It's perfect for my next project.</p>
-                        </div>
-                        <div class="chat-text">
-                          <p>How can I purchase it?</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="chat chat-right">
-                      <div class="chat-avatar">
-                        <a class="avatar">
-                          <img src="{{asset('images/user/12.jpg')}}" class="circle" alt="avatar" />
-                        </a>
-                      </div>
-                      <div class="chat-body">
-                        <div class="chat-text">
-                          <p>Thanks, from ThemeForest.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="chat">
-                      <div class="chat-avatar">
-                        <a class="avatar">
-                          <img src="{{asset('images/user/7.jpg')}}" class="circle" alt="avatar" />
-                        </a>
-                      </div>
-                      <div class="chat-body">
-                        <div class="chat-text">
-                          <p>I will purchase it for sure.</p>
-                        </div>
-                        <div class="chat-text">
-                          <p>Thanks.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="chat chat-right">
-                      <div class="chat-avatar">
-                        <a class="avatar">
-                          <img src="{{asset('images/user/12.jpg')}}" class="circle" alt="avatar" />
-                        </a>
-                      </div>
-                      <div class="chat-body">
-                        <div class="chat-text">
-                          <p>Great, Feel free to get in touch on</p>
-                        </div>
-                        <div class="chat-text">
-                          <p>https://pixinvent.ticksy.com/</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-              <!--/ Chat content area -->
-
-              <!-- Chat footer <-->
-              <!-- <div class="chat-footer">
-                <form onsubmit="enter_chat();" action="javascript:void(0);" class="chat-input">
-                  <i class="material-icons mr-2">face</i>
-                  <i class="material-icons mr-2">attachment</i>
-                  <input type="text" placeholder="Type message here.." class="message mb-0">
-                  <a class="btn waves-effect waves-light send" onclick="enter_chat();">Send</a>
-                </form>
-              </div> -->
-              <!--/ Chat footer -->
-            <!-- </div> -->
-            <!--/ Content Area -->
           </div>
         </div>
       </div>
