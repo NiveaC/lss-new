@@ -51,33 +51,10 @@
                   </tbody>
                 </table>
               </div>
-              
-              <!-- <div id="horizontal-card" class="section cneter">
-                <div class="row">
-                  <div class="col s12 m12 l12">
-                    <div class="col">
-                      <div class="s6">
-                        <div class="card horizontal">
-                          <div class="card-image"><img src="{{asset('images/prize.png')}}" alt="" style="width:200px;height:200px"/></div>
-                          <div class="card-stacked">
-                            <div class="card-content">
-                              <ul>
-                                <li>Prize</li>
-                                <li>Comments Including</li>
-                                <li>Number of Winner</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-              <div class="row mt-5 center">
+              <div id="luckydraw_btn" class="row mt-5 center">
                 <div class="col s12 m12 l12">
                   <div class="row">
-                    <div class="col s12">
+                    <div class="col s12 luckydraw_size">
                       <a class="waves-effect waves-light btn btn-large gradient-45deg-light-blue-cyan border-round z-depth-4 mr-1 mb-2">Draw Now</a>
                     </div>
                   </div>
@@ -90,6 +67,7 @@
     </div>
   </div>
 </div>
+@include('pages.sidebar.prize_popup')
 @endsection
 
 {{-- vendor scripts --}}

@@ -2,7 +2,7 @@
 @extends('layouts.contentLayoutMaster')
 
 {{-- Page title --}}
-@section('title','Campaign_live')
+@section('title','Campaign Live')
 
 {{-- vendor styles --}}
 @section('vendor-style')
@@ -28,9 +28,9 @@
       <!-- live streaming -->
       <div class="live_streaming">
         <div class="">
-          <div class="col s12 m12 l4">
+          <div class="col s12 m12 l4 pl-0">
             <div id="video-two" class="mr-0">
-              <div class="video-container no-controls" style="width: 250pt; height: 500pt; margin-top:14pt;">
+              <div class="video-container no-controls" style="width: 300pt; height: 500pt; margin-top:14pt;">
                 <iframe width="200" height="600" src="https://www.youtube.com/embed/Skpu5HaVkOc" allowfullscreen></iframe>
               </div>
             </div>
@@ -76,7 +76,7 @@
                     </div>  
                     <div class="col s3 m4 l4 mt-1">
                     <a class="waves-effect waves-light btn mr-1 border-round">
-                    <i class="material-icons show-on-small">redeem</i><span class=" hide-on-small-only">Lucky Draw</span></a>
+                      <i class="material-icons show-on-small left">redeem</i><span class=" hide-on-small-only">Lucky Draw</span>                    </a>
 
                       <!-- <a class="btn-floating mb-1 btn-large waves-effect waves-light mr-1 hide-on-med-and-down">
                         <i class="material-icons">redeem</i>
@@ -227,7 +227,7 @@
                                 <i class="material-icons left">file_upload</i> Export</a>
                             </div>
                             <div class="row">
-                              <div class="col s12">
+                              <div class="col s12 p-0">
                                 <table id="page-length-option" class="display">
                                   <thead>
                                     <tr>
