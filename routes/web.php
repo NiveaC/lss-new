@@ -62,6 +62,7 @@ Route::get('/campaign_live', [ApplicationController::class, 'campaignLive']);
 Route::get('/summarized_comments', [ApplicationController::class, 'summarizedComments']);
 Route::get('/manage_orders', [ApplicationController::class, 'manageOrders']);
 Route::get('/lucky_draw', [ApplicationController::class, 'luckyDraw']);
+Route::get('/lucky_draw_winner', [ApplicationController::class, 'luckyDrawWinner']);
  
 // User profile Route
 Route::get('/user-profile-page', [UserProfileController::class, 'userProfile']);
