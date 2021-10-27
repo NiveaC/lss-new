@@ -13,27 +13,63 @@
 @section('content')
 <div id="summarized_comments">
   <div id="card-with-analytics" class="section">
-    <div class="row">
-      <div class="col s12 m12 l12 pr-0 mb-2 center">
-        <span class="title" style="font-size:24pt; color:#ffffff;">Summarized Comments</span>
-      </div>
-    </div>
     <div id="comments_row" class="row" style="padding: 0 30pt;">
-      <div class="col s12 m6 l3 card-width">
+      <div class="col s12 mt-0">
+        <a class="btn indigo darken-4 mb-1 waves-effect waves-light mr-1">
+          <i class="material-icons left mr-0">refresh</i>Refresh Orders</a>
+      </div>
+      <div class="col s12 m6 l3 card-width commments_card">
         <div class="card border-radius-6">
-        <div class="card-content center-align">
-            <a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="comments_popup"><span class="material-icons amber-text small-ico-bg mb-5">paid</span></a>
+          <div class="card-content center-align">
+            <a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="comments_popup"><span class="material-icons amber-text small-ico-bg mb-5">chat_bubble_outline</span></a>
             <h4 class="m-0"><b>1.6k</b></h4>
-            <p>Shipping Fee</p>
+            <p>Delivery</p>
           </div>
         </div>
       </div>
-      <div class="col s12 m6 l3 card-width">
+      <div class="col s12 m6 l3 card-width commments_card">
         <div class="card border-radius-6">
-          <div class="card-content center-align">
-            <a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="comments_popup"><span class="material-icons amber-text small-ico-bg mb-5">paid</span></a>
-            <h4 class="m-0"><b>1.6k</b></h4>
-            <p>Shipping Fee</p>
+          <div class="card-content">
+            <a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="comments_popup"></a>
+            <p class="m-0"><b>Shipping Fee</b></p>
+            <div class="row">
+              <div class="col s12">
+                <div class="col s3 m3 l5 left">
+                 <a class="waves-effect waves-block waves-light sidenav-trigger" href="#" data-target="comments_popup"><span class="material-icons amber-text small-ico-bg mb-5">chat_bubble_outline</span></a>
+                </div>
+              
+                <div class="col s9 m9 l7">
+                  <h5 class="m-0 grey-text">1.6k</h5>
+                </div>
+              </div>
+            </div>
+            
+              <div class="section">
+                <div class="chip cyan white-text">
+                  # Tag
+                </div>
+                <div class="chip cyan white-text">
+                  # Keyword
+                </div>
+                <div class="chip cyan white-text">
+                  # Tag
+                </div>
+                <div class="chip cyan  white-text">
+                  # Keyword
+                </div>
+                <div class="chip cyan  white-text">
+                  # Keyword
+                </div>
+                <div class="chip cyan  white-text">
+                  # Tag
+                </div>
+                <div class="chip cyan  white-text">
+                  # Tag
+                </div>
+                <div class="chip cyan  white-text">
+                  # Tag
+                </div>
+              </div>
           </div>
         </div>
       </div>

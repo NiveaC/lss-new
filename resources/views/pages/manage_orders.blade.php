@@ -2,7 +2,7 @@
 @extends('layouts.contentLayoutMaster')
 
 {{-- page title --}}
-@section('title','Manage Comments')
+@section('title','Manage Orders')
 
 {{-- vendors styles --}}
 @section('vendor-style')
@@ -19,16 +19,55 @@
 
 {{-- page content --}}
 @section('content')
-<!-- users list start -->
-<section class="users-list-wrapper section" style="padding: 0 2rem;">
-  <div class="row">
-    <div class="col s12 m12 l12 pr-0 mb-2 center-align">
-      <span class="title" style="font-size:24pt; color:#ffffff;">211024 Customer Orders</span>
+<!-- data card-->
+<section class="users-list-wrapper section" style="">
+  <div id="card-with-analytics" class="section">
+    <div class="row">
+      <div class="col s12 m6 l3 card-width">
+        <div class="card border-radius-6">
+          <div class="card-content center-align">
+            <h4 class="m-0"><b>Transactions</b></h4>
+            <p>22.5%</p>
+            <p class="green-text  mt-3"><i class="material-icons vertical-align-middle">arrow_drop_up</i>
+              112.43%</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3 card-width">
+        <div class="card border-radius-6">
+          <div class="card-content center-align">
+            <h4 class="m-0"><b>Sales</b></h4>
+            <p>12345</p>
+            <p class="green-text  mt-3"><i class="material-icons vertical-align-middle">arrow_drop_up</i>
+              112.90%</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3 card-width">
+        <div class="card border-radius-6">
+          <div class="card-content center-align">
+            <h4 class="m-0"><b>Views</b></h4>
+            <p>890</p>
+            <p class="red-text  mt-3"><i class="material-icons vertical-align-middle">arrow_drop_down</i>
+              24.4%</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3 card-width">
+        <div class="card border-radius-6">
+          <div class="card-content center-align">
+            <h4 class="m-0"><b>Comments</b></h4>
+            <p>22.5%</p>
+            <p class="green-text  mt-3"><i class="material-icons vertical-align-middle">arrow_drop_up</i>
+              112.43%</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+    <!-- proceed+in cart -->
   <div class="row" id="orders_status gradient-Analytics">
-    <div class="col s12 m6 l6 card-width" style="padding: 0 2rem;">
-      <div class="card row gradient-45deg-deep-orange-orange gradient-shadow white-text padding-4 mt-5">
+    <div class="col s12 m6 l6 card-width proceed_card" style="">
+      <div class="card row gradient-45deg-deep-orange-orange gradient-shadow white-text padding-3 my-0 proceed_content">
         <div class="col s7 m7">
           <i class="material-icons background-round mt-5 mb-5">published_with_changes</i>
         </div>
@@ -38,8 +77,8 @@
         </div>
       </div>
     </div>
-    <div class="col s12 m6 l6 card-width" style="padding: 0 2rem;">
-      <div class="card row gradient-45deg-green-teal gradient-shadow white-text padding-4 mt-5">
+    <div class="col s12 m6 l6 card-width cart_card" style="">
+      <div class="card row gradient-45deg-green-teal gradient-shadow white-text padding-3 my-0 cart_content">
         <div class="col s7 m7">
           <i class="material-icons background-round mt-5 mb-5">add_shopping_cart</i>
         </div>
@@ -50,6 +89,32 @@
       </div>
     </div>
   </div>
+  </div>
+<!-- proceed+in cart -->
+  <!-- <div class="row" id="orders_status gradient-Analytics">
+    <div class="col s12 m6 l6 card-width proceed_card" style="">
+      <div class="card row gradient-45deg-deep-orange-orange gradient-shadow white-text padding-3 proceed_content">
+        <div class="col s7 m7">
+          <i class="material-icons background-round mt-5 mb-5">published_with_changes</i>
+        </div>
+        <div class="col s5 m5 right-align">
+          <h5 class="mt-5 white-text">690</h5>
+          <h6 class="mb-0 white-text">Proceed</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l6 card-width cart_card" style="">
+      <div class="card row gradient-45deg-green-teal gradient-shadow white-text padding-3 cart_content">
+        <div class="col s7 m7">
+          <i class="material-icons background-round mt-5 mb-5">add_shopping_cart</i>
+        </div>
+        <div class="col s5 m5 right-align">
+          <h5 class="mt-5 white-text">1885</h5>
+          <h6 class="mb-0 white-text">In Cart</h6>
+        </div>
+      </div>
+    </div>
+  </div> -->
   <div class="users-list-table">
     <div class="card">
       <div class="card-content">
