@@ -15,24 +15,6 @@
             </div>
             <div class="col s10 pl-2 mb-1 pt-0">
               <h5 class="subject_title" style="width:500px;">Delivery</h5>
-
-              <!-- <ul class="tabs">
-                <li class="tab col s4 p-0">
-                  <a href="#messages" class="active">
-                    <span>Delivery</span>
-                  </a>
-                </li>
-                <li class="tab col s4 p-0">
-                  <a href="#settings">
-                    <span>Settings</span>
-                  </a>
-                </li>
-                <li class="tab col s4 p-0">
-                  <a href="#activity">
-                    <span>Activity</span>
-                  </a>
-                </li>
-              </ul> -->
             </div>
           </div>
         </div>
