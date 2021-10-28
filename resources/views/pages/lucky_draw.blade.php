@@ -33,19 +33,19 @@
               <div class="col s12 m6 l5">
                 <img src="{{asset('images/prize.png')}}" alt="" class="responsive-img"style=""/>
               </div>
-              <div class="col s12 m6 l7 mt-9 pr-10 pl-3 prize_content">
+              <div class="col s12 m6 l7 mt-8 pr-6 prize_content">
                 <table class="">
                   <tbody>
                     <tr>
-                      <td class="prize_title">Prize :</td>
+                      <td class="prize_title"><span class="material-icons grey-text text-darken-2 left mr-2">emoji_events</span>Prize :</td>
                       <td>Cup Cake</td> 
                     </tr>
                     <tr>
-                      <td class="prize_title">Comments Including :</td>
+                      <td class="prize_title"><span class="material-icons grey-text text-darken-2 left mr-2">reviews</span>Comments Including :</td>
                       <td>Good</td>
                     </tr>
                     <tr>
-                      <td class="prize_title">Number of Winner :</td>
+                      <td class="prize_title"><span class="material-icons grey-text text-darken-2 left mr-2">groups</span>Number of Winner :</td>
                       <td>4</td>
                     </tr>
                   </tbody>
