@@ -2,7 +2,7 @@
 @extends('layouts.contentLayoutMaster')
 
 {{-- page title --}}
-@section('title','Campaign')
+@section('title','Auto Reply')
 
 {{-- vendor styles --}}
 @section('vendor-style')
