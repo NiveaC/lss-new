@@ -26,9 +26,9 @@
       <div class="col s12 m6 l3 card-width">
         <div class="card border-radius-6">
           <div class="card-content center-align">
-            <h4 class="m-0"><b>Transactions</b></h4>
-            <p>22.5%</p>
-            <p class="green-text  mt-3"><i class="material-icons vertical-align-middle">arrow_drop_up</i>
+            <h4 class="m-0"><b>2234</b></h4>
+            <p>Closed Rate</p>
+            <p class="green-text mt-3"><i class="material-icons vertical-align-middle">arrow_drop_up</i>
               112.43%</p>
           </div>
         </div>
@@ -36,9 +36,9 @@
       <div class="col s12 m6 l3 card-width">
         <div class="card border-radius-6">
           <div class="card-content center-align">
-            <h4 class="m-0"><b>Sales</b></h4>
-            <p>12345</p>
-            <p class="green-text  mt-3"><i class="material-icons vertical-align-middle">arrow_drop_up</i>
+            <h4 class="m-0"><b>12345</b></h4>
+            <p>Sales</p>
+            <p class="green-text mt-3"><i class="material-icons vertical-align-middle">arrow_drop_up</i>
               112.90%</p>
           </div>
         </div>
@@ -46,8 +46,8 @@
       <div class="col s12 m6 l3 card-width">
         <div class="card border-radius-6">
           <div class="card-content center-align">
-            <h4 class="m-0"><b>Views</b></h4>
-            <p>890</p>
+            <h4 class="m-0"><b>890</b></h4>
+            <p>Views</p>
             <p class="red-text  mt-3"><i class="material-icons vertical-align-middle">arrow_drop_down</i>
               24.4%</p>
           </div>
@@ -56,16 +56,17 @@
       <div class="col s12 m6 l3 card-width">
         <div class="card border-radius-6">
           <div class="card-content center-align">
-            <h4 class="m-0"><b>Comments</b></h4>
-            <p>22.5%</p>
+            <h4 class="m-0"><b>22.5%</b></h4>
+            <p>Comments</p>
             <p class="green-text  mt-3"><i class="material-icons vertical-align-middle">arrow_drop_up</i>
               112.43%</p>
           </div>
         </div>
       </div>
     </div>
-    <!-- proceed+in cart -->
-  <div class="row" id="orders_status gradient-Analytics">
+  </div>
+  <!-- proceed+in cart -->
+  <div class="row proceed_card" id="orders_status gradient-Analytics">
     <div class="col s12 m6 l6 card-width proceed_card" style="">
       <div class="card row gradient-45deg-deep-orange-orange gradient-shadow white-text padding-3 my-0 proceed_content">
         <div class="col s7 m7">
@@ -89,38 +90,12 @@
       </div>
     </div>
   </div>
-  </div>
-<!-- proceed+in cart -->
-  <!-- <div class="row" id="orders_status gradient-Analytics">
-    <div class="col s12 m6 l6 card-width proceed_card" style="">
-      <div class="card row gradient-45deg-deep-orange-orange gradient-shadow white-text padding-3 proceed_content">
-        <div class="col s7 m7">
-          <i class="material-icons background-round mt-5 mb-5">published_with_changes</i>
-        </div>
-        <div class="col s5 m5 right-align">
-          <h5 class="mt-5 white-text">690</h5>
-          <h6 class="mb-0 white-text">Proceed</h6>
-        </div>
-      </div>
-    </div>
-    <div class="col s12 m6 l6 card-width cart_card" style="">
-      <div class="card row gradient-45deg-green-teal gradient-shadow white-text padding-3 cart_content">
-        <div class="col s7 m7">
-          <i class="material-icons background-round mt-5 mb-5">add_shopping_cart</i>
-        </div>
-        <div class="col s5 m5 right-align">
-          <h5 class="mt-5 white-text">1885</h5>
-          <h6 class="mb-0 white-text">In Cart</h6>
-        </div>
-      </div>
-    </div>
-  </div> -->
   <div class="users-list-table">
     <div class="card">
       <div class="card-content">
         <!-- datatable start -->
         <div class="responsive-table customer_orders">
-          <div class="col s12 mt-0">
+          <div class="col s12 mt-0 p-0">
             <a class="btn indigo darken-4 mb-1 waves-effect waves-light mr-1">
               <i class="material-icons left mr-0">refresh</i>Refresh Orders</a>
             <a class="btn indigo darken-4 mb-1 waves-effect waves-light">
@@ -138,14 +113,14 @@
                 <th>Payment</th>
                 <th>Status</th>
                 <th>Action</th>
-                <th>view</th>
+                <th>View</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td></td>
                 <td>300</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a></td>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a></td>
                 <td>Dean Stanley</td>
                 <td>12</td>
                 <td>127.5</td>
@@ -161,7 +136,7 @@
               <tr>
                 <td></td>
                 <td>301</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Zena Buckley</td>
                 <td>12</td>
@@ -178,7 +153,7 @@
               <tr>
                 <td></td>
                 <td>302</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Delilah Moon</td>
                 <td>03/01/2020</td>
@@ -195,7 +170,7 @@
               <tr>
                 <td></td>
                 <td>303</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Hillary Rasmussen</td>
                 <td>18/07/2019</td>
@@ -209,7 +184,7 @@
               <tr>
                 <td></td>
                 <td>304</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Herman Tate</td>
                 <td>20/03/2020</td>
@@ -223,7 +198,7 @@
               <tr>
                 <td></td>
                 <td>305</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Kuame Ford</td>
                 <td>30/08/2019</td>
@@ -240,7 +215,7 @@
               <tr>
                 <td></td>
                 <td>306</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Fulton Stafford</td>
                 <td>20/09/2019</td>
@@ -257,7 +232,7 @@
               <tr>
                 <td></td>
                 <td>307</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Piper Jordan</td>
                 <td>05/08/2020</td>
@@ -274,7 +249,7 @@
               <tr>
                 <td></td>
                 <td>308</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Neil Sosa</td>
                 <td>10/02/2019</td>
@@ -288,7 +263,7 @@
               <tr>
                 <td></td>
                 <td>309</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Caldwell Chapman</td>
                 <td>24/02/2020</td>
@@ -305,7 +280,7 @@
               <tr>
                 <td></td>
                 <td>310</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Wesley Oneil</td>
                 <td>05/08/2020</td>
@@ -319,7 +294,7 @@
               <tr>
                 <td></td>
                 <td>311</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Tallulah Fleming</td>
                 <td>20/09/2019</td>
@@ -333,7 +308,7 @@
               <tr>
                 <td></td>
                 <td>312</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Iris Maddox</td>
                 <td>25/05/2019</td>
@@ -347,7 +322,7 @@
               <tr>
                 <td></td>
                 <td>313</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Caleb Bradley</td>
                 <td>15/04/2020</td>
@@ -364,7 +339,7 @@
               <tr>
                 <td></td>
                 <td>314</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Illiana Grimes</td>
                 <td>04/10/2019</td>
@@ -395,7 +370,7 @@
               <tr>
                 <td></td>
                 <td>316</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" lt=""></a>
                 </td>
                 <td>Gregory Hayden</td>
                 <td>23/09/2019</td>
@@ -412,7 +387,7 @@
               <tr>
                 <td></td>
                 <td>317</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Jescie Parker</td>
                 <td>18/02/2019</td>
@@ -426,7 +401,7 @@
               <tr>
                 <td></td>
                 <td>318</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Sydney Cabrera</td>
                 <td>31/01/2020</td>
@@ -440,7 +415,7 @@
               <tr>
                 <td></td>
                 <td>319</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Gray Valenzuela</td>
                 <td>27/02/2020</td>
@@ -453,7 +428,7 @@
               <tr>
                 <td></td>
                 <td>320</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Hoyt Ellison</td>
                 <td>03/05/2020</td>
@@ -470,7 +445,7 @@
               <tr>
                 <td></td>
                 <td>321</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Damon Berry</td>
                 <td>02/09/2019</td>
@@ -484,7 +459,7 @@
               <tr>
                 <td></td>
                 <td>322</td>
-                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
+                <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a>
                 </td>
                 <td>Kelsie Dunlap</td>
                 <td>05/11/2019</td>
