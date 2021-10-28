@@ -59,9 +59,9 @@
                 </div>
                 <div class="col s12 m2 l2 input-field">
                   <input id="name" name="name" type="text" class="validate" value="300"
-                    data-error=".errorTxt2">
+                    data-error=".errorTxt3">
                   <label for="campaign qty">Campaign Q'ty</label>
-                  <small class="errorTxt2"></small>
+                  <small class="errorTxt3"></small>
                 </div>
                 <div class="col s12 m2 l2 input-field">
                   <input id="email" name="email" type="email" class="validate" value="3"
@@ -118,7 +118,7 @@
                     </table> -->
               </div>
             </div> 
-            <div class="col s12">
+            <div class="col s12 mt-1">
               <a class="waves-effect waves-light btn border-round right">Assign</a>
             </div>
           </div>

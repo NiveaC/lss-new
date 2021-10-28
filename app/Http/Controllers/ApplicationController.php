@@ -143,5 +143,15 @@ class ApplicationController extends Controller
 
         return view('pages.assign_product');
     }
+    public function autoReply()
+    {   
+
+        return view('pages.auto_reply');
+    }
+    public function createCampaign()
+    {   
+
+        return view('pages.create_campaign');
+    }
 
 }

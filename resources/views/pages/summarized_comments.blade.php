@@ -9,6 +9,11 @@
 <link rel="stylesheet" type="text/css" href="{{asset('fonts/fontawesome/css/all.min.css')}}">
 @endsection
 
+@section('page-style')
+<link rel="stylesheet" type="text/css" href="{{asset('css/pages/lss.css')}}">
+@endsection
+
+
 {{-- page content --}}
 @section('content')
 <div id="summarized_comments">
