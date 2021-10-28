@@ -63,6 +63,7 @@ Route::get('/summarized_comments', [ApplicationController::class, 'summarizedCom
 Route::get('/manage_orders', [ApplicationController::class, 'manageOrders']);
 Route::get('/lucky_draw', [ApplicationController::class, 'luckyDraw']);
 Route::get('/lucky_draw_winner', [ApplicationController::class, 'luckyDrawWinner']);
+Route::get('/assign_product', [ApplicationController::class, 'assignProduct']);
  
 // User profile Route
 Route::get('/user-profile-page', [UserProfileController::class, 'userProfile']);

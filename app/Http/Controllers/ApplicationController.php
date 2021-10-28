@@ -138,5 +138,10 @@ class ApplicationController extends Controller
 
         return view('pages.lucky_draw_winner');
     }
+    public function assignProduct()
+    {   
+
+        return view('pages.assign_product');
+    }
 
 }

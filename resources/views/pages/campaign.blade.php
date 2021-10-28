@@ -21,24 +21,15 @@
 
 {{-- page content --}}
 @section('content')
-<div class="row">
-  <div class="col s12 m12 l12 pr-0 mb-2 center-align">
-    <div class="col s10 m11 l11 xl10 offset-xl1">
-      <span class="title" style="font-size:24pt; color:#ffffff;">Campaign</span>
-    </div>
-    <div class="col s2 m1 l1 xl1 right-align">
-      <span><img src="{{asset('images/lss-icon/questions01.png')}}" class="responsive-img" style="width:30px; height:30px;" alt="Guideline"></span>
-    </div>
-  </div>
-</div>
-<div class="row">
+<div class="row campaign_btn">
   <div class="col s12 m12 l12 pr-0">
     <div class="col s12 m7 l9 xl7">
-      <a class="waves-effect waves-light btn mb-1 mr-1" style="border-radius:30pt;">Scheduled</a>
-      <a class="waves-effect waves-light btn mb-1 mr-1" style="border-radius:30pt; background-color:#ffffff; color:#ff4081;">History</a>
+      <a class="waves-effect waves-light btn mt-2 mr-1" style="border-radius:30pt;">Scheduled</a>
+      <a class="waves-effect waves-light btn mt-2 mr-1" style="border-radius:30pt; background-color:#ffffff; color:#ff4081;">History</a>
     </div>
-    <div class="col s12 m4 offset-m1 l3 xl3 offset-xl2 right-align">
-      <a class="waves-effect indigo darken-4 btn mb-1 mr-1"><i class="material-icons left" style="margin-right:0;">add</i>Create</a>
+    <div class="col s12 m4 offset-m1 l3 xl3 offset-xl2 mt-2 right-align">
+      <a class="waves-effect indigo darken-4 btn mr-1"><i class="material-icons left" style="margin-right:0;">add</i>Create</a>
+      <span><img src="{{asset('images/lss-icon/questions01.png')}}" class="responsive-img right" style="width:30px; height:30px;" alt="Guideline"></span>
     </div>
   </div>
 </div>

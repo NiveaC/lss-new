@@ -16,8 +16,8 @@
 {{-- page styles --}}
 @section('page-style')
 <!-- <link rel="stylesheet" type="text/css" href="{{asset('css/pages/css-media.css')}}"> -->
-<link rel="stylesheet" type="text/css" href="{{asset('css/pages/lss.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('css/pages/data-tables.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('css/pages/lss.css')}}">
 @endsection
 
 {{-- main page content --}}
@@ -440,7 +440,15 @@
 </div>
 @endsection
 
-{{-- page scripts --}}
+{{-- vendor scripts --}}
+@section('vendor-script')
+<script src="{{asset('vendors/data-tables/js/jquery.dataTables.min.js')}}"></script>
+<script src="{{asset('vendors/data-tables/extensions/responsive/js/dataTables.responsive.min.js')}}"></script>
+<script src="{{asset('vendors/data-tables/js/dataTables.select.min.js')}}"></script>
+@endsection
+
+{{-- page script --}}
 @section('page-script')
+<script src="{{asset('js/scripts/data-tables.js')}}"></script>
 <script src="{{asset('js/scripts/app-chat.js')}}"></script>
 @endsection
