@@ -22,10 +22,8 @@
 {{-- page content --}}
 @section('content')
 <div class="row reply_btn">
-  <div class="col s12 m12 l12 pr-0">
-    <div class="col s12 mt-2 right-align">
-      <a class="waves-effect indigo darken-4 btn mr-1"><i class="material-icons left" style="margin-right:0;">add</i>Create</a>
-    </div>
+  <div class="col s12 mt-2 right-align">
+    <a class="waves-effect indigo darken-4 btn"><i class="material-icons left" style="margin-right:0;">add</i>Create</a>
   </div>
 </div>
 <div class="section section-data-tables campaign">

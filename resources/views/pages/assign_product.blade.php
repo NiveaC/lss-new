@@ -53,18 +53,18 @@
                 </div>
                 <div class="col s12 m2 l2 input-field">
                   <input id="username" name="username" type="text" class="validate" value="CK"
-                    data-error=".errorTxt1">
+                    data-error=".errorTxt3">
                   <label for="order code">Order Code</label>
-                  <small class="errorTxt1"></small>
+                  <small class="errorTxt3"></small>
                 </div>
-                <div class="col s12 m2 l2 input-field">
-                  <input id="name" name="name" type="text" class="validate" value="300"
+                <div class="col s6 m2 l2 input-field">
+                  <input id="name" name="campaign qty" type="text" class="validate" value="300"
                     data-error=".errorTxt3">
                   <label for="campaign qty">Campaign Q'ty</label>
                   <small class="errorTxt3"></small>
                 </div>
-                <div class="col s12 m2 l2 input-field">
-                  <input id="email" name="email" type="email" class="validate" value="3"
+                <div class="col s6 m2 l2 input-field">
+                  <input id="email" name="max order qty" type="text" class="validate" value="3"
                     data-error=".errorTxt3">
                   <label for="max order qty">Max Order Q'ty</label>
                   <small class="errorTxt3"></small>
@@ -72,54 +72,27 @@
                 <div class="col s6 m2 l2">
                   <label for="max order qty">Allow Customer</label>
                   <p>
-                    <div class="div" style="margin-top:0.5vh;">
-                  <label>
-                    <input class="validate" required id="tnc_select1" type="checkbox" />
-                    <span>Edit</span>
-                  </label>
+                  <div class="" style="margin-top:0.5vh;">
+                    <label>
+                      <input class="validate" required id="tnc_select1" type="checkbox" />
+                      <span>Edit Item</span>
+                    </label>
                   </div>
                   </p>
                 </div>
-                <div class="col s6 m2 l2" style="margin-top:3.4vh;">
-                <label for="max order qty"></label>
+                <div class="col s6 m2 l2 right-align" style="margin-top:3.4vh;">
+                  <label for="max order qty"></label>
                   <p>
                   <label>
                     <input class="validate" required id="tnc_select1" type="checkbox" />
-                    <span>Delete</span>
+                    <span>Delete Item</span>
                   </label>
                   </p>
                 </div>
-                    <!-- 表格形式 -->
-                    <!-- <table class="mt-1">
-                      <thead>
-                        <tr style="border-bottom:1px solid #ffffff;">
-                          <th></th>
-                          <th>Edit</th>
-                          <th>Delete</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr style="border-bottom:1px solid #ffffff;">
-                          <td>Allow Customers</td>
-                          <td>
-                            <label>
-                              <input type="checkbox" checked />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table> -->
               </div>
-            </div> 
-            <div class="col s12 mt-1">
-              <a class="waves-effect waves-light btn border-round right">Assign</a>
+            </div>
+            <div class="col s12 m12 assign_btn">
+              <a class="waves-effect waves-light btn right">Assign</a>
             </div>
           </div>
         </div>
