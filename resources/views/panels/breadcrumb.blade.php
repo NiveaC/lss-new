@@ -7,7 +7,7 @@
   <div class="container">
     <div class="row">
       <div class="col s12 m12 l12">
-        <h3 class="breadcrumbs-title mt-0 mb-3 breadcrumb_font" style="font-size:24pt; text-align:center;"><span>@yield('title') </span></h3>
+        <!-- <h3 class="breadcrumbs-title mt-0 mb-3 breadcrumb_font" style="font-size:24pt; text-align:center;"><span>@yield('title') </span></h3> -->
         @if(isset($breadcrumbs))
         <!-- <ol class="breadcrumbs mb-0">
           @foreach ($breadcrumbs as $breadcrumb)

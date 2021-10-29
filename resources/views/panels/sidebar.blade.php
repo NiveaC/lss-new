@@ -32,7 +32,7 @@
           @endif
         </span>
       </a>
-      <a class="navbar-toggler" href="javascript:void(0)"><i class="material-icons">radio_button_checked</i></a></h1>
+      <a class="navbar-toggler" href="javascript:void(0)"><i class="material-icons">menu</i></a></h1>
   </div>
   <!-- 下面頁面選單 -->
   <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out"

@@ -108,6 +108,11 @@ class ApplicationController extends Controller
 
         return view('pages.eCommerce-products-details-page');
     }
+    public function inventories()
+    {   
+
+        return view('pages.inventories');
+    }
     public function campaign()
     {   
 
@@ -152,6 +157,11 @@ class ApplicationController extends Controller
     {   
 
         return view('pages.create_campaign');
+    }
+    public function orderReport()
+    {   
+
+        return view('pages.order_report');
     }
 
 }

@@ -57,6 +57,7 @@ Route::get('/app-invoice-add', [ApplicationController::class, 'invoiceAdd']);
 Route::get('/eCommerce-products-page', [ApplicationController::class, 'ecommerceProduct']);
 Route::get('/eCommerce-products-details-page', [ApplicationController::class, 'ecommerceProductDetails']);
 Route::get('/eCommerce-pricing', [ApplicationController::class, 'eCommercePricing']);
+Route::get('/inventories', [ApplicationController::class, 'inventories']);
 Route::get('/campaign', [ApplicationController::class, 'campaign']);
 Route::get('/campaign_live', [ApplicationController::class, 'campaignLive']);
 Route::get('/summarized_comments', [ApplicationController::class, 'summarizedComments']);
@@ -66,6 +67,7 @@ Route::get('/lucky_draw_winner', [ApplicationController::class, 'luckyDrawWinner
 Route::get('/assign_product', [ApplicationController::class, 'assignProduct']);
 Route::get('/auto_reply', [ApplicationController::class, 'autoReply']);
 Route::get('/create_campaign', [ApplicationController::class, 'createCampaign']);
+Route::get('/order_report', [ApplicationController::class, 'orderReport']);
  
 // User profile Route
 Route::get('/user-profile-page', [UserProfileController::class, 'userProfile']);

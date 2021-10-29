@@ -28,9 +28,9 @@
       <!-- live streaming -->
       <div class="live_streaming">
         <div class="">
-          <div class="col s12 m12 l4 pl-0">
+          <div class="col s12 m12 l3 pl-0">
             <div id="video-two" class="mr-0">
-              <div class="video-container no-controls" style="width: 300pt; height: 500pt; margin-top:14pt;">
+              <div class="video-container no-controls" style="width: 270pt; height: 500pt; margin-top:14pt;">
                 <iframe width="200" height="600" src="https://www.youtube.com/embed/Skpu5HaVkOc" allowfullscreen></iframe>
               </div>
             </div>
@@ -39,18 +39,18 @@
       </div>
       <!-- comment+products+incoming orders -->
       <div class="comment">
-        <div class="col s12 m12 l8">
+        <div class="col s12 m12 l8 right">
           <div id="tabs-in-card" class="section">
             <div class="card">
               <!-- Title+User -->
               <div class="card-content pb-0">
                 <div class="row">
                   <div class="col s12 m12 l12">
-                    <div class="col s9 m9 l6">
+                    <div class="col s9 m9 l6 campaign_content">
                       <div class="campaign_title">Title 211025</div>
                     </div>
-                    <div class="col s3 m3 l5 offset-l1">
-                      <div class="col s2 pr-0 mt-1 circle">
+                    <div class="col s3 m3 l4 offset-l2 right-align">
+                      <div class="col s2 pr-0 mt-1 circle right">
                         <a href="#"><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" alt=""></a>
                       </div>
                       <div class="col s10 user_name hide-on-med-and-down">
@@ -65,7 +65,7 @@
               <div class="card">
                 <div class="row">
                   <div class="col s12 m12 l12">
-                    <div class="col s9 m8 l8">
+                    <div class="col s12 m8 l8">
                       <div class="card-tabs">
                         <ul class="tabs tabs-fixed-width tab_font">
                           <li class="tab"><a href="#test4">Comment</a></li>
@@ -74,8 +74,8 @@
                         </ul>
                       </div>
                     </div>  
-                    <div class="col s3 m4 l4 mt-1">
-                    <a class="waves-effect waves-light btn mr-1 border-round">
+                    <div class="col s5 offset-s7 m4 l4 mt-1">
+                    <a class="waves-effect waves-light btn gradient-45deg-light-blue-cyan mr-1 border-round">
                       <i class="material-icons show-on-small left">redeem</i><span class=" hide-on-small-only">Lucky Draw</span>                    </a>
 
                       <!-- <a class="btn-floating mb-1 btn-large waves-effect waves-light mr-1 hide-on-med-and-down">
@@ -94,24 +94,54 @@
                         <div id="view-avatar">
                           <div class="row">
                             <div class="col s12">
-                              <ul class="collection">
-                                <li class="collection-item avatar">
+                              <ul class="collection comment_content" style="border:none; margin-top:-2%;">
+                                <li class="collection-item avatar" style="min-height:0;">
                                   <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
                                   <span class="title">Name</span>
                                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="collection-item avatar">
+                                <li class="collection-item avatar" style="min-height:0;">
                                 <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
                                   <span class="title">Name</span>
                                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                   </p>
                                 </li>
-                                <li class="collection-item avatar">
+                                <li class="collection-item avatar" style="min-height:0;">
                                 <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
                                   <span class="title">Name</span>
                                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="collection-item avatar">
+                                <li class="collection-item avatar" style="min-height:0;">
+                                <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
+                                  <span class="title">Name</span>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="collection-item avatar" style="min-height:0;">
+                                <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
+                                  <span class="title">Name</span>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="collection-item avatar" style="min-height:0;">
+                                <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
+                                  <span class="title">Name</span>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="collection-item avatar" style="min-height:0;">
+                                <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
+                                  <span class="title">Name</span>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="collection-item avatar" style="min-height:0;">
+                                <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
+                                  <span class="title">Name</span>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="collection-item avatar" style="min-height:0;">
+                                <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
+                                  <span class="title">Name</span>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </li>
+                                <li class="collection-item avatar" style="min-height:0;">
                                 <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle">
                                   <span class="title">Name</span>
                                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -130,7 +160,7 @@
                         <div id="view-avatar">
                           <div class="row">
                             <div class="col s12">
-                              <a class="waves-effect waves-light btn mb-1">
+                              <a class="waves-effect indigo darken-4 btn mb-1">
                               <i class="material-icons left" style="margin-right:0;">add</i>Instantly Add Product</a>
                               <ul class="collection">
                                 <li class="product_info product_avatar">
@@ -219,11 +249,11 @@
                         <div class="card">
                           <div class="card-content pt-0">
                             <div class="col s12 mt-3">
-                              <a class="btn mb-1 waves-effect waves-light">
+                              <a class="btn mb-1 waves-effect indigo darken-4">
                                 <i class="material-icons left">message</i> Summarize Comments</a>
-                              <a class="btn mb-1 waves-effect waves-light">
+                              <a class="btn mb-1 waves-effect indigo darken-4">
                                 <i class="material-icons left">list_alt</i> Manage Order</a>
-                              <a class="btn mb-1 waves-effect waves-light">
+                              <a class="btn mb-1 waves-effect indigo darken-4">
                                 <i class="material-icons left">file_upload</i> Export</a>
                             </div>
                             <div class="row">
@@ -452,3 +482,4 @@
 <script src="{{asset('js/scripts/data-tables.js')}}"></script>
 <script src="{{asset('js/scripts/app-chat.js')}}"></script>
 @endsection
+
