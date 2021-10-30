@@ -21,14 +21,14 @@
 
 {{-- page content --}}
 @section('content')
-<div class="row campaign_btn">
+<div class="row campaign_btn mt-2">
   <div class="col s12 m12 l12 pr-0">
     <div class="col s12 m7 l9 xl7">
       <a class="waves-effect waves-light btn mt-2 mr-1" style="border-radius:30pt;">Scheduled</a>
       <a class="waves-effect waves-light btn mt-2 mr-1" style="border-radius:30pt; background-color:#ffffff; color:#ff4081;">History</a>
     </div>
-    <div class="col s12 m4 offset-m1 l3 xl3 offset-xl2 mt-2 right-align">
-      <a class="waves-effect indigo darken-4 btn mr-1"><i class="material-icons left" style="margin-right:0;">add</i>Create</a>
+    <div class="col s12 m4 offset-m1 l3 xl3 offset-xl2 mt-1 right-align">
+      <a class="btn waves-effect indigo darken-4 mb-3 mr-1"><i class="material-icons left" style="margin-right:0;">add</i>Create</a>
       <span><img src="{{asset('images/lss-icon/questions01.png')}}" class="responsive-img right" style="width:30px; height:30px;" alt="Guideline"></span>
     </div>
   </div>

@@ -213,7 +213,7 @@
 
   <!-- Linear Stepper -->
 
-  <!-- <div class="row">
+  <div class="row">
     <div class="col s12">
       <div class="card">
         <div class="card-content">
@@ -395,7 +395,7 @@
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- Non Linear Stepper -->
 

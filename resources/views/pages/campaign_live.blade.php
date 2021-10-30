@@ -62,8 +62,8 @@
                   </div>
                 </div>
               </div>
-              <div class="card">
-                <div class="row">
+              <!-- <div class="card"> -->
+                <div class="row mt-2">
                   <div class="col s12 m12 l12">
                     <div class="col s12 m8 l8">
                       <div class="card-tabs">
@@ -74,20 +74,13 @@
                         </ul>
                       </div>
                     </div>  
-                    <div class="col s5 offset-s7 m4 l4 mt-1">
+                    <div id="luckudraw_btn" class="col s4 offset-s7 m4 l4 right">
                     <a class="waves-effect waves-light btn gradient-45deg-light-blue-cyan mr-1 border-round">
-                      <i class="material-icons show-on-small left">redeem</i><span class=" hide-on-small-only">Lucky Draw</span>                    </a>
-
-                      <!-- <a class="btn-floating mb-1 btn-large waves-effect waves-light mr-1 hide-on-med-and-down">
-                        <i class="material-icons">redeem</i>
-                      </a>
-                      <a class="luckdraw_btn waves-effect waves-light btn-large border-round hide-on-small-only">
-                      Lucky Draw</a> -->
+                      <i class="material-icons show-on-small left">redeem</i><span class=" hide-on-small-only">Lucky Draw</span></a>
                     </div> 
                   </div>
                 </div>
                 <!-- comment -->
-                <!-- <div class="card-content grey lighten-4"> -->
                   <div id="test4">
                     <div id="avatar-content" class="card card-tabs">
                       <div class="card-content">
@@ -244,6 +237,9 @@
                   </div>
                   <!-- Incomming orders -->
                   <div id="test6">
+                  <div id="avatar-content product_content" class="card card-tabs">
+                      <!-- <div class="card-content" style="padding: 20px;"> -->
+                        <div id="view-avatar">
                     <div class="row">
                       <div class="col s12">
                         <div class="card">
@@ -458,9 +454,12 @@
                         </div>
                       </div>
                     </div>
+                    </div>
+                    <!-- </div> -->
+                    </div>
                   </div>
-                <!-- </div> -->
-              </div>
+                  
+              <!-- </div> -->
             </div>
           </div>
         </div>
