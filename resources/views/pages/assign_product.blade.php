@@ -108,7 +108,7 @@
         <div class="card-content assign_product">
           <div class="row">
             <div class="col s12">
-              <table id="page-length-option" class="display">
+              <table id="page-length-option" class="display" style="background-color:none;">
               <thead>
                   <tr>
                     <th>Image</th>
@@ -135,8 +135,8 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -150,8 +150,8 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -165,8 +165,8 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -180,8 +180,8 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -195,8 +195,8 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -210,8 +210,8 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -225,8 +225,8 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -240,8 +240,8 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -255,8 +255,8 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                 </tbody>

@@ -56,7 +56,7 @@
           <div id="inventory_btn" class="col s12 m9 right">
             <div class="datatable-search right">
               <a class="search_btn btn waves-effect border-round grey-text white"><i class="material-icons grey-text left">search</i>Search</a>
-              <a class="add_btn btn waves-effect indigo darken-4 right"><i class="material-icons left show-on-small" style="margin-right:5px;">add</i>Add Item</a>
+              <a class="add_btn btn waves-effect indigo darken-4 right"><i class="material-icons left show-on-small" style="margin-right:5px;">add</i><span class="hide-on-med-and-down">Add Item</span></a>
             </div>
           </div>
           <div id="dataTables_section" class="col s12 m3">
@@ -73,6 +73,7 @@
             </div>
           </div> 
         </div>
+        
         <div class="divider" style="margin-top:-1%;"></div>
 
         <div class="card-content">

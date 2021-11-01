@@ -36,7 +36,7 @@
 </div> -->
 
 <div class="col s12 mt-1 right-align">
-  <span><img src="{{asset('images/lss-icon/questions01.png')}}" class="responsive-img right" style="width:25px; height:25px;" alt="Guideline"></span>
+  <a><img src="{{asset('images/lss-icon/questions01.png')}}" class="responsive-img" style="width:25px; height:25px; margin-bottom: -0.5rem;" alt="Guideline"><span class="right-align white-text mb-3">Getting Started</span></a>
 </div>
 <div id="tabs-in-card inventory_content" class="section">
   <div class="row">
@@ -57,8 +57,8 @@
         <div class="col s12 m12 l12" style="padding-left:7px;"> 
           <div id="inventory_btn" class="col s12 m9 right">
             <div class="datatable-search right">
-              <a class="search_btn btn waves-effect border-round grey-text white"><i class="material-icons grey-text left">search</i>Search</a>
-              <a class="add_btn btn waves-effect indigo darken-4 right"><i class="material-icons left show-on-small" style="margin-right:5px;">add</i>Add Item</a>
+              <a class="search_btn btn waves-effect border-round grey-text white"><i class="material-icons grey-text left">search</i><span class="hide-on-med-and-down">Search</span></a>
+              <a class="add_btn btn waves-effect indigo darken-4 right"><i class="material-icons left show-on-small" style="margin-right:5px;">add</i><span class="hide-on-med-and-down">Add Item</span></a>
             </div>
           </div>
           <div id="dataTables_section" class="col s12 m3">
@@ -75,6 +75,7 @@
             </div>
           </div> 
         </div>
+
         <div class="divider" style="margin-top:-1%;"></div>
 
         <div id="campaign_content " class="card-content">
@@ -99,7 +100,7 @@
                         <tbody>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
@@ -115,7 +116,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
@@ -131,7 +132,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
@@ -147,7 +148,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
@@ -163,7 +164,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
@@ -179,7 +180,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
@@ -195,7 +196,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
@@ -211,7 +212,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
@@ -227,7 +228,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
@@ -243,7 +244,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
@@ -259,7 +260,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <a class="btn waves-effect border-round right enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
+                              <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
                             <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>

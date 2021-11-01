@@ -39,7 +39,8 @@
     data-menu="menu-navigation" data-collapsible="menu-accordion">
     
     <li class="navigation-header">
-      <a href="#" class="navigation-header-text" style="font-size:14px;"><img class="" src="{{asset('images/lss-icon/dashboard1.png')}}" style="height:12pt; width:12pt; margin-right:18px;">Dashboard</a>
+      <!-- <a><img src="{{asset('images/lss-icon/dashboard1.png')}}" class="responsive-img" style="width:12px; height:12px; margin-bottom: -0.5rem;" alt="Guideline"><span class="right-align white-text mb-3">Dashboard</span>Dashboard</a> -->
+      <a href="#" class="navigation-header-text" style="font-size:14px;"><img class="" src="{{asset('images/lss-icon/dashboard1.png')}}" style="height:12pt; width:12pt; margin-right:18px; margin-bottom: -0.5rem;">Dashboard</a>
     </li>
     <li class="navigation-header">
   <a href="#" class="navigation-header-text" style="font-size:14px;"><img class="" src="{{asset('images/lss-icon/inventory.png')}}" style="height:14pt; width:14pt; margin-right:18px;"/>Inventories</a> 
