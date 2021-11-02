@@ -90,9 +90,9 @@
                           <tr>
                             <th></th>
                             <th>Title</th>
-                            <th>Link</th>
                             <th>Start Date</th>
                             <th>End Date</th>
+                            <th>Link</th>
                             <th>Manage</th>
                             <th>Edit</th>
                           </tr>
@@ -103,9 +103,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
@@ -119,9 +121,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
@@ -135,9 +139,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
@@ -151,9 +157,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
@@ -167,9 +175,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
@@ -183,9 +193,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
@@ -199,9 +211,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
@@ -215,9 +229,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
@@ -231,9 +247,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
@@ -247,9 +265,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
@@ -263,9 +283,11 @@
                               <a class="btn waves-effect border-round enter_btn"><i class="material-icons left" style="margin-right:5px;">logout</i>Enter</a>
                             </td>
                             <td>211008</td>
-                            <td><a href="#">https://ppfocus.com/0/die9e8189.html</a></td>
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
+                            <td>
+                              <span class="material-icons">link</span>
+                            </td>
                             <td>
                               <span class="material-icons mr-10" style="color:#b6b6b6;">list_alt</span>
                               <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
