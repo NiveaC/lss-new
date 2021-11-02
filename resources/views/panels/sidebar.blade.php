@@ -39,28 +39,94 @@
     data-menu="menu-navigation" data-collapsible="menu-accordion">
     
     <li class="navigation-header">
-      <!-- <a><img src="{{asset('images/lss-icon/dashboard1.png')}}" class="responsive-img" style="width:12px; height:12px; margin-bottom: -0.5rem;" alt="Guideline"><span class="right-align white-text mb-3">Dashboard</span>Dashboard</a> -->
-      <a href="#" class="navigation-header-text" style="font-size:14px;"><img class="" src="{{asset('images/lss-icon/dashboard1.png')}}" style="height:12pt; width:12pt; margin-right:18px; margin-bottom: -0.5rem;">Dashboard</a>
+      <div class="row">
+        <div class="col s2 left p-0">
+          <img class="" src="{{asset('images/lss-icon/dashboard1.png')}}" style="height:14pt; margin-right:-5%;"/>
+        </div>
+        <div class="col s10">
+          <a href="#" class="navigation-header-text" style="font-size:14px;">Dashboard</a>
+        </div>
+      </div>
     </li>
     <li class="navigation-header">
-  <a href="#" class="navigation-header-text" style="font-size:14px;"><img class="" src="{{asset('images/lss-icon/inventory.png')}}" style="height:14pt; width:14pt; margin-right:18px;"/>Inventories</a> 
+      <div class="row">
+        <div class="col s2 left p-0">
+          <img class="" src="{{asset('images/lss-icon/inventory.png')}}" style="height:14pt; margin-right:-5%;"/>
+        </div>
+        <div class="col s10">
+          <a href="#" class="navigation-header-text" style="font-size:14px;">Inventories</a>
+        </div>
+      </div>
     </li>
     <li class="navigation-header">
-      <a href="#" class="navigation-header-text" style="font-size:14px;"><img class="" src="{{asset('images/lss-icon/live.png')}}" style="height:14pt; width:14pt; margin-right:18px;"/>Campaign</a>
+      <div class="row">
+        <div class="col s2 left p-0">
+          <img class="" src="{{asset('images/lss-icon/live.png')}}" style="height:14pt; margin-right:-5%;"/>
+        </div>
+        <div class="col s10">
+          <a href="#" class="navigation-header-text" style="font-size:14px;">Campaign</a>
+        </div>
+      </div>
     </li>
     <li class="navigation-header">
-      <a href="#" class="navigation-header-text" style="font-size:14px;"><img class="" src="{{asset('images/lss-icon/auto reply.png')}}" style="height:14pt; width:14pt; margin-right:18px;"/>Auto Reply</a>
+      <div class="row">
+        <div class="col s2 left p-0">
+          <img class="" src="{{asset('images/lss-icon/auto reply.png')}}" style="height:14pt; margin-right:-5%;"/>
+        </div>
+        <div class="col s10">
+          <a href="#" class="navigation-header-text" style="font-size:14px;">Auto Reply</a>
+        </div>
+      </div>
     </li>
     <li class="navigation-header">
-      <a href="#" class="navigation-header-text" style="font-size:14px;"><img class="" src="{{asset('images/lss-icon/payment.png')}}" style="height:14pt; width:14pt; margin-right:18px;"/>Payment</a>
+    <div class="row">
+        <div class="col s2 left p-0">
+          <img class="" src="{{asset('images/lss-icon/payment.png')}}" style="height:14pt; margin-right:-5%;"/>
+        </div>
+        <div class="col s10">
+          <a href="#" class="navigation-header-text" style="font-size:14px;">Payment</a>
+        </div>
+      </div>
     </li>
     <li class="navigation-header">
-      <a href="#" class="navigation-header-text" style="font-size:14px;"><img class="" src="{{asset('images/lss-icon/regional.png')}}" style="height:14pt; width:14pt; margin-right:18px;"/>Regional</a>
+      <div class="row">
+        <div class="col s2 left p-0">
+          <img class="" src="{{asset('images/lss-icon/regional.png')}}" style="height:14pt; margin-right:-5%;"/>
+        </div>
+        <div class="col s10">
+          <a href="#" class="navigation-header-text" style="font-size:14px;">Regional</a>
+        </div>
+      </div>
     </li>
     <li class="navigation-header">
-      <a href="#" class="navigation-header-text" style="font-size:14px;"><img class="" src="{{asset('images/lss-icon/settings.png')}}" style="height:14pt; width:14pt; margin-right:18px;"/>Settings</a>
+      <div class="row">
+        <div class="col s2 left p-0">
+          <img class="" src="{{asset('images/lss-icon/settings.png')}}" style="height:14pt; margin-right:-5%;"/>
+        </div>
+        <div class="col s10">
+          <a href="#" class="navigation-header-text" style="font-size:14px;">Settings</a>
+        </div>
+      </div>
     </li>
+
+    <div class="row" style="margin-top:5rem;">
+      <div class="col s12">
+        <div class="col s3">
+          <img class="" src="{{asset('images/lss-img/facebook.png')}}" style="height:14pt; width:14pt; margin-right:18px; margin-bottom: -0.3rem;"/>
+        </div>
+        <div class="col s3">
+        <img class="" src="{{asset('images/lss-img/youtube.png')}}" style="height:14pt; width:14pt; margin-right:18px; margin-bottom: -0.3rem;"/>
+        </div>
+        <div class="col s3">
+        <img class="" src="{{asset('images/lss-img/instagram.png')}}" style="height:14pt; width:14pt; margin-right:18px; margin-bottom: -0.3rem;"/>
+        </div>
+        <div class="col s3">
+        <img class="" src="{{asset('images/lss-img/tiktok.png')}}" style="height:14pt; width:14pt; margin-right:18px; margin-bottom: -0.3rem;"/>
+        </div>
+      </div>
+    </div>
   </ul>
+  
     
   <!-- <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out"
     data-menu="menu-navigation" data-collapsible="menu-accordion">
