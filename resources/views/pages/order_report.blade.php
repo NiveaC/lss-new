@@ -81,9 +81,9 @@
                   </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -108,9 +108,9 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -135,9 +135,9 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -162,9 +162,9 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -189,9 +189,9 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -216,9 +216,9 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -243,9 +243,9 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -270,9 +270,9 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -297,9 +297,9 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -324,9 +324,9 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -351,9 +351,9 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>
@@ -378,9 +378,36 @@
                     <td>1</td>
                     <td>2</td>
                   </tr>
-                    <tr>
+                  <tr>
                     <td>
-                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.5rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
+                    <td>2021/10/18 15:05</td>
+                    <td>12345</td>
+                    <td>0912345678</td>
+                    <td>AA@gmail.com</td>
+                    <td>General Payment</td>
+                    <td>Proceed</td>
+                    <td>125</td>
+                    <td>in-store pickup</td>
+                    <td>2021/10/31 SUN</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Mike Weng</span></td>
                     <td>2021/10/18 15:05</td>
                     <td>12345</td>
                     <td>0912345678</td>

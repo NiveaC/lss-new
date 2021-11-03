@@ -36,7 +36,7 @@
 </div> -->
 
 <div class="col s12 mt-1 right-align">
-  <a><img src="{{asset('images/lss-icon/questions01.png')}}" class="responsive-img" style="width:25px; height:25px; margin-bottom: -0.5rem;" alt="Guideline"><span class="right-align white-text mb-3">Getting Started</span></a>
+  <a><img src="{{asset('images/lss-icon/questions.png')}}" class="responsive-img" style="width:25px; height:25px; margin-bottom: -0.5rem;" alt="Guideline"><span class="right-align black-text mb-3">Getting Started</span></a>
 </div>
 <div id="tabs-in-card inventory_content" class="section">
   <div class="row">

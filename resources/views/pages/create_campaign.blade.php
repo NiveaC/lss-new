@@ -199,7 +199,7 @@
                         <div class="step-content">
                           <!-- payment details -->
                           <!-- General Payment -->
-                          <div class="row payment_details">
+                          <div id="payment_details" class="row payment_details">
                             <div class="col s12">
                               <div id="html-validations" class="card card-tabs">
                                 <div class="card-content">
@@ -365,7 +365,7 @@
                                   </div>
                                   <div class="row">
                                     <div class="col s12">
-                                      <a class="add_btn btn waves-effect waves-light right"><i class="material-icons left show-on-small" style="margin-right:5px;">arrow_forward_ios</i><span class="hide-on-med-and-down">Next</span></a>
+                                      <a class="add_btn btn waves-effect waves-light right"><span class="hide-on-med-and-down">Save</span></a>
                                     </div>
                                   </div>
                                 </div>

@@ -96,7 +96,7 @@
         <div class="card-content assign_product">
           <div class="row">
             <div class="col s12">
-              <table id="page-length-option" class="display" style="background-color:none;">
+              <table id="page-length-option" class="display" style="background-color:none; width:100%;display:block; overflow-x:auto;white-space:nowrap;" >
               <thead>
                   <tr>
                     <th>Image</th>

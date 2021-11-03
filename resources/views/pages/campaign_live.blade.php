@@ -72,7 +72,7 @@
                     </div>
                   </div>  
                   <div id="luckudraw_btn" class="col s4 offset-s7 m4 l4 right-align">
-                    <a class="waves-effect waves-light btn gradient-45deg-light-blue-cyan mr-1 border-round">
+                    <a class="waves-effect waves-light btn gradient-45deg-red-pink mr-1 border-round">
                     <i class="material-icons show-on-small left">redeem</i><span class=" hide-on-small-only">Lucky Draw</span></a>
                   </div> 
                 </div>
@@ -173,7 +173,7 @@
                                     </a> -->
                                     <div class="m-0">
                                       <!-- <span>Activate the product</span> -->
-                                      <div class="switch right">
+                                      <div class="switch right"> 
                                         <label>Activate
                                           <input type="checkbox" />
                                           <span class="lever"></span>
@@ -317,27 +317,10 @@
                                         <td>General Payment</td>
                                         <td>Proceed</td>
                                         <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
                                         </td>
                                         <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">visibility</i>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td>12345</td>
-                                        <td>
-                                          <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle mt-1" style="width: 30px;">
-                                        </td>
-                                        <td>Tiger Nixon</td>
-                                        <td>091234567</td>
-                                        <td>127.5</td>
-                                        <td>General Payment</td>
-                                        <td>Proceed</td>
-                                        <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
-                                        </td>
-                                        <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">visibility</i>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">visibility</i>
                                         </td>
                                       </tr>
                                       <tr>
@@ -351,27 +334,10 @@
                                         <td>General Payment</td>
                                         <td>Proceed</td>
                                         <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
                                         </td>
                                         <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">visibility</i>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td>12345</td>
-                                        <td>
-                                          <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle mt-1" style="width: 30px;">
-                                        </td>
-                                        <td>Tiger Nixon</td>
-                                        <td>091234567</td>
-                                        <td>127.5</td>
-                                        <td>General Payment</td>
-                                        <td>Proceed</td>
-                                        <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
-                                        </td>
-                                        <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">visibility</i>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">visibility</i>
                                         </td>
                                       </tr>
                                       <tr>
@@ -385,10 +351,10 @@
                                         <td>General Payment</td>
                                         <td>Proceed</td>
                                         <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
                                         </td>
                                         <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">visibility</i>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">visibility</i>
                                         </td>
                                       </tr>
                                       <tr>
@@ -402,15 +368,47 @@
                                         <td>General Payment</td>
                                         <td>Proceed</td>
                                         <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
                                         </td>
                                         <td>
-                                          <i class="material-icons left show-on-small" style="margin-right:5px; color:#b6b6b6;">visibility</i>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">visibility</i>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>12345</td>
+                                        <td>
+                                          <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle mt-1" style="width: 30px;">
+                                        </td>
+                                        <td>Tiger Nixon</td>
+                                        <td>091234567</td>
+                                        <td>127.5</td>
+                                        <td>General Payment</td>
+                                        <td>Proceed</td>
+                                        <td>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
+                                        </td>
+                                        <td>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">visibility</i>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>12345</td>
+                                        <td>
+                                          <img src="{{asset('images/avatar/avatar-7.png')}}" alt="" class="circle mt-1" style="width: 30px;">
+                                        </td>
+                                        <td>Tiger Nixon</td>
+                                        <td>091234567</td>
+                                        <td>127.5</td>
+                                        <td>General Payment</td>
+                                        <td>Proceed</td>
+                                        <td>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">shopping_cart</i>
+                                        </td>
+                                        <td>
+                                          <i class="material-icons" style="margin-right:5px; color:#b6b6b6;">visibility</i>
                                         </td>
                                       </tr>
                                     </tbody>
-                                    <tfoot>
-                                    </tfoot>
                                   </table>
                                 </div>
                               </div>

@@ -117,7 +117,7 @@ class Helper
         ];
         //navbarMainColor array contain navabar's color classes according to layout types
         $navbarMainColor = [
-            'vertical-modern-menu' => 'navbar-dark gradient-45deg-indigo-purple',
+            'vertical-modern-menu' => 'lss_blue_light',
             'vertical-menu-nav-dark' => 'navbar-dark gradient-45deg-purple-deep-orange',
             'vertical-gradient-menu' => 'navbar-light',
             'vertical-dark-menu' => 'navbar-light',
@@ -125,7 +125,7 @@ class Helper
         ];
         //navbarLargeColor array contain navbarlarge's default color classes
         $navbarLargeColor = [
-            'vertical-modern-menu' => 'gradient-45deg-indigo-purple',
+            'vertical-modern-menu' => '#f9f9f9',
             'vertical-menu-nav-dark' => 'blue-grey lighten-5',
             'vertical-gradient-menu' => 'blue-grey lighten-5',
             'vertical-dark-menu' => 'blue-grey lighten-5',
@@ -141,7 +141,7 @@ class Helper
         ];
         //mainFooterColor array contain footer's color classes
         $mainFooterColor = [
-            'vertical-modern-menu' => 'footer-dark gradient-45deg-indigo-purple',
+            'vertical-modern-menu' => 'white',
             'vertical-menu-nav-dark' => 'footer-dark gradient-45deg-purple-deep-orange',
             'vertical-gradient-menu' => 'footer-light',
             'vertical-dark-menu' => 'footer-light',

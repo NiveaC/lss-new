@@ -16,7 +16,7 @@
 
 {{-- page content --}}
 @section('content')
-<div class="row">
+<div class="row mt-2">
   <div class="col s12 m12 l12 xl12">
     <a class="waves-block waves-light sidenav-trigger" href="#" data-target="prize_popup">
       <span class="material-icons grey-text text-darken-3 small-ico-bg mb-1 right">more_horiz</span>
@@ -34,7 +34,7 @@
                 <img src="{{asset('images/prize.png')}}" alt="" class="responsive-img"style=""/>
               </div>
               <div class="col s12 m6 l7 mt-8 pr-6 prize_content">
-                <table class="">
+                <table>
                   <tbody>
                     <tr>
                       <td class="prize_title"><span class="material-icons grey-text text-darken-2 left mr-2">emoji_events</span>Prize :</td>
@@ -55,7 +55,7 @@
                 <div class="col s12 m12 l12">
                   <div class="row">
                     <div class="col s12 luckydraw_size">
-                      <a class="waves-effect waves-light btn btn-large gradient-45deg-light-blue-cyan border-round z-depth-4 mr-1 mb-2">Draw Now</a>
+                      <a class="waves-effect waves-light btn btn-large gradient-45deg-red-pink border-round z-depth-4 mr-1 mb-2">Draw Now</a>
                     </div>
                   </div>
                 </div>
