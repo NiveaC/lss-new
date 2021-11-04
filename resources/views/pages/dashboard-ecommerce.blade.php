@@ -36,7 +36,7 @@
                <div class="padding-4">
                   <div class="row">
                      <div class="col s7 m7">
-                        <i class="material-icons background-round mt-5">perm_identity</i>
+                        <i class="material-icons background-round mt-5">attach_money</i>
                      </div>
                      <div class="col s5 m5 right-align">
                         <h5 class="mb-0 white-text">1,112,900</h5>
@@ -47,11 +47,11 @@
             </div>
          </div>
          <div class="col s12 m6 l6 width_new">
-            <div class="card gradient-45deg-amber-amber gradient-shadow min-height-100 white-text animate fadeRight">
+            <div class="card gradient-45deg-indigo-light-blue gradient-shadow min-height-100 white-text animate fadeRight">
                <div class="padding-4">
                   <div class="row">
                      <div class="col s7 m7">
-                        <i class="material-icons background-round mt-5">timeline</i>
+                        <i class="material-icons background-round mt-5">pending_actions</i>
                         <p></p>
                      </div>
                      <div class="col s5 m5 right-align">

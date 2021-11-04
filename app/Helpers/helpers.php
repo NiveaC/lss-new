@@ -117,7 +117,7 @@ class Helper
         ];
         //navbarMainColor array contain navabar's color classes according to layout types
         $navbarMainColor = [
-            'vertical-modern-menu' => 'lss_blue_light',
+            'vertical-modern-menu' => 'lss_yellow_4',
             'vertical-menu-nav-dark' => 'navbar-dark gradient-45deg-purple-deep-orange',
             'vertical-gradient-menu' => 'navbar-light',
             'vertical-dark-menu' => 'navbar-light',
