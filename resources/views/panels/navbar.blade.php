@@ -1,10 +1,10 @@
 <div class="navbar @if(($configData['isNavbarFixed'])=== true){{'navbar-fixed'}} @endif">
   <nav
     class="{{$configData['navbarMainClass']}} @if($configData['isNavbarDark']=== true) {{'navbar-dark'}} @elseif($configData['isNavbarDark']=== false) {{'navbar-light'}} @elseif(!empty($configData['navbarBgColor'])) {{$configData['navbarBgColor']}} @else {{$configData['navbarMainColor']}} @endif">
-    <div class="nav-wrapper">
+    <div class="nav-wrapper z-depth-2">
       <!-- 標題 -->
       <div class="header-search-wrapper hide-on-med-and-down">
-        <h3 class="breadcrumbs-title mt-0 mb-3 indigo-text text-darken-4 breadcrumb_font" style="font-size:18pt; font-weight:bolder; color:"><span>@yield('title') </span></h3>
+        <h3 class="mt-0 mb-3 black-text" style="font-size:18pt; font-weight:bolder;"><span>@yield('title') </span></h3>
       </div>
       <ul class="navbar-list right">
         <!-- translation-button-->

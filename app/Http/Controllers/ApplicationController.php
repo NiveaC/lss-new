@@ -102,11 +102,11 @@ class ApplicationController extends Controller
 
         return view('pages.eCommerce-pricing', ['breadcrumbs' => $breadcrumbs], ['pageConfigs' => $pageConfigs]);
     }
-    public function ecommerceProductDetails()
-    { // ecommerceProductDetails
+    public function platform()
+    { 
         
 
-        return view('pages.eCommerce-products-details-page');
+        return view('pages.platform');
     }
     public function inventories()
     {   
