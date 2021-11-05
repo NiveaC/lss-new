@@ -33,7 +33,7 @@
         <div class="card-content">
           <div class="row">
             <div class="col s12">
-              <table id="page-length-option" class="display">
+              <table id="page-length-option" class="display" style="background-color:none; width:100%;display:block; overflow-x:auto;white-space:nowrap;">
               <thead>
                   <tr>
                     <th>#</th>
@@ -50,8 +50,8 @@
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>
-                      <span class="material-icons" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -60,8 +60,8 @@
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non perspiciatis nemo maiores nihil autem repellendus molestiae aperiam recusandae asperiores sit nobis qui magni repudiandae, amet dignissimos molestias? Accusantium, consectetur?</td>
                     <td>
-                      <span class="material-icons" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -70,8 +70,8 @@
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non perspiciatis nemo maiores nihil autem repellendus molestiae aperiam recusandae asperiores sit nobis qui magni repudiandae, amet dignissimos molestias? Accusantium, consectetur?</td>
                     <td>
-                      <span class="material-icons" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>
@@ -80,8 +80,8 @@
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non perspiciatis nemo maiores nihil autem repellendus molestiae aperiam recusandae asperiores sit nobis qui magni repudiandae, amet dignissimos molestias? Accusantium, consectetur?</td>
                     <td>
-                      <span class="material-icons" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
                     </td>
                   </tr>
                   <tr>

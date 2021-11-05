@@ -55,7 +55,7 @@
         <div class="col s12 m12 l12" style="padding-left:7px;"> 
           <div id="inventory_btn" class="col s12 m9 right">
             <div class="datatable-search right">
-              <a class="search_btn btn waves-effect border-round grey-text white"><i class="material-icons grey-text left">search</i>Search</a>
+              <a class="search_btn btn waves-effect border-round grey-text white"><i class="material-icons grey-text left show-on-small">search</i><span class="hide-on-med-and-down">Search</span></a>
               <a class="add_btn btn waves-effect indigo darken-4 right"><i class="material-icons left show-on-small" style="margin-right:5px;">add</i><span class="hide-on-med-and-down">Add Item</span></a>
             </div>
           </div>

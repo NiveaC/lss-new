@@ -16,11 +16,11 @@
 
 {{-- page content --}}
 @section('content')
-<div class="row">
+<div class="row mt-2">
   <div class="col s12 m12 l12">
     <a class="waves-block waves-light sidenav-trigger" href="#" data-target="prize_popup">
-      <span class="material-icons grey-text text-darken-3 small-ico-bg mb-1 right">more_horiz</span></a>
-    <a class="waves-effect waves-light btn mb-1 mr-1 border-round right sidenav-trigger" href="#" data-target="all_winner_popup">All</a>
+      <span class="material-icons grey-text text-darken-3 small-ico-bg right">more_horiz</span></a>
+    <a class="waves-effect waves-light btn mr-1 sidenav-trigger right" href="#" data-target="all_winner_popup">All</a>
   </div>
 </div>
 <div id="luckydraw_winner_content" class="section">

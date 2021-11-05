@@ -71,9 +71,9 @@
                       </ul>
                     </div>
                   </div>  
-                  <div id="luckudraw_btn" class="col s4 offset-s7 m4 l4 right-align">
-                    <a class="waves-effect waves-light btn gradient-45deg-red-pink mr-1 border-round">
-                    <i class="material-icons show-on-small left">redeem</i><span class=" hide-on-small-only">Lucky Draw</span></a>
+                  <div id="luckudraw_btn" class="col s12 m4 l4 right-align">
+                    <a class="waves-effect waves-light btn gradient-45deg-red-pink mr-2 border-round">
+                    <i class="material-icons show-on-small left">redeem</i><span class="hide-on-small-only">Lucky Draw</span></a>
                   </div> 
                 </div>
               </div>
@@ -153,7 +153,7 @@
                           <div class="row">
                             <div class="col s12 right">
                                 <a class="waves-effect indigo darken-4 btn right">
-                                <i class="material-icons left" style="margin-right:5px;">add</i>Instantly Add Product</a>
+                                <i class="material-icons left" style="margin-right:5px;">add</i><span class="hide-on-small-only">Instantly Add Product</span></a>
                             </div>
                           </div>
                           <ul class="collection">
@@ -281,17 +281,17 @@
                         <div class="col s12">
                           <div class="col s12 mt-1 right-align p-0 order_content">
                             <a class="btn mb-1 waves-effect indigo darken-4">
-                              <i class="material-icons left" style="border:1px solid #1a237e;">message</i>Summarized Comments</a>
+                              <i class="material-icons left" style="border:1px solid #1a237e;">message</i><span class="hide-on-small-only">Summarized Comments</span></a>
                             <a class="btn mb-1 waves-effect indigo darken-4">
-                              <i class="material-icons left" >list_alt</i>Manage Order</a>
+                              <i class="material-icons left" >list_alt</i><span class="hide-on-small-only">Manage Order</span></a>
                             <a class="btn mb-1 waves-effect indigo darken-4">
-                              <i class="material-icons left">download</i> Export</a>
+                              <i class="material-icons left">download</i> <span class="hide-on-small-only">Export</span></a>
                           </div>
                           <div class="section section-data-tables">
                             <div class="card-content pt-0">
                               <div class="row">
                                 <div class="col s12 p-0">
-                                  <table id="page-length-option" class="display" style="width:100%;display:block;overflow-x:auto;white-space:nowrap;">
+                                  <table id="page-length-option" class="display" style="width:100%; display:block; overflow-x:auto;white-space:nowrap;">
                                     <thead>
                                       <tr>
                                         <th>Order No.</th>

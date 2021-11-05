@@ -22,8 +22,8 @@
 {{-- page content --}}
 @section('content')
 <div id="assign_info" class="row">
-  <div class="col s12">
-    <div class="card card-tabs">
+  <div class="col s12 mt-1">
+    <div class="card">
       <div class="card-content assign_content">
         <div id="view-select2">
           <div class="row"> 
@@ -93,7 +93,7 @@
   <div class="row">
     <div class="col s12">
       <div class="card">
-        <div class="card-content assign_product">
+        <div class="card-content">
           <div class="row">
             <div class="col s12">
               <table id="page-length-option" class="display" style="background-color:none; width:100%;display:block; overflow-x:auto;white-space:nowrap;" >

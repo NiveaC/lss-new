@@ -91,149 +91,291 @@
       </div>
     </div>
   </div>
-<div class="section section-data-tables">
-  <div class="row">
-    <div class="col s12">
-      <div class="card">
-        <div class="card-content">
-          <div class="col s12 mt-0 p-0 right-align">
-            <a class="btn indigo darken-4 mb-1 waves-effect waves-light mr-1">
-              <i class="material-icons left" style="margin-right:5px;">refresh</i>Refresh</a>
-            <a class="btn indigo darken-4 mb-1 waves-effect waves-light">
-              <i class="material-icons left" style="margin-right:5px;">not_interested</i>Stop Checkout</a>
-          </div>
-          <div class="row">
-            <div class="col s12">
-              <table id="page-length-option" class="display">
-              <thead>
-                  <tr>
-                    <th>Order NO.</th>
-                    <th>FB Image</th>
-                    <th>FB Name</th>
-                    <th>Total Items</th>
-                    <th>Amount</th>
-                    <th>Payment</th>
-                    <th>Status</th>
-                    <th>Message</th>
-                    <th>Shopping Cart</th>
-                    <th>View</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>300</td>
-                    <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a></td>
-                    <td>Dean Stanley</td>
-                    <td>12</td>
-                    <td>127.5</td>
-                    <td>General Payment</td>
-                    <td><span class="chip green lighten-5">
-                        <span class="green-text">Cart</span>
-                      </span>
-                    </td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
-                    <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
-                  </tr>
-                  <tr>
-                    <td>300</td>
-                    <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a></td>
-                    <td>Dean Stanley</td>
-                    <td>12</td>
-                    <td>127.5</td>
-                    <td>General Payment</td>
-                    <td><span class="chip green lighten-5">
-                        <span class="green-text">Cart</span>
-                      </span>
-                    </td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
-                    <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
-                  </tr>
-                  <tr>
-                    <td>300</td>
-                    <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a></td>
-                    <td>Dean Stanley</td>
-                    <td>12</td>
-                    <td>127.5</td>
-                    <td>General Payment</td>
-                    <td><span class="chip red lighten-5">
-                        <span class="red-text">Proceed</span>
-                      </span>
-                    </td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
-                    <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
-                  </tr>
-                  <tr>
-                    <td>300</td>
-                    <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a></td>
-                    <td>Dean Stanley</td>
-                    <td>12</td>
-                    <td>127.5</td>
-                    <td>General Payment</td>
-                    <td><span class="chip green lighten-5">
-                        <span class="green-text">Cart</span>
-                      </span>
-                    </td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
-                    <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
-                  </tr>
-                  <tr>
-                    <td>300</td>
-                    <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a></td>
-                    <td>Dean Stanley</td>
-                    <td>12</td>
-                    <td>127.5</td>
-                    <td>General Payment</td>
-                    <td><span class="chip green lighten-5">
-                        <span class="green-text">Cart</span>
-                      </span>
-                    </td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
-                    <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
-                  </tr>
-                  <tr>
-                    <td>300</td>
-                    <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a></td>
-                    <td>Dean Stanley</td>
-                    <td>12</td>
-                    <td>127.5</td>
-                    <td>General Payment</td>
-                    <td><span class="chip green lighten-5">
-                        <span class="green-text">Cart</span>
-                      </span>
-                    </td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
-                    <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
-                  </tr>
-                  <tr>
-                    <td>300</td>
-                    <td><img class="user_img circle" src="{{asset('images/user/12.jpg')}}" style="width: 30px;" alt=""></a></td>
-                    <td>Dean Stanley</td>
-                    <td>12</td>
-                    <td>127.5</td>
-                    <td>General Payment</td>
-                    <td><span class="chip red lighten-5">
-                        <span class="red-text">Proceed</span>
-                      </span>
-                    </td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
-                    <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
-                    <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
-                  </tr>
-                </tbody>
-              </table>
+  <div class="section section-data-tables">
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-content">
+
+            <!-- <div class="col s12 m12 l12" style="padding-left:7px;"> 
+              <div id="inventory_btn" class="col s12 m10 right">
+                <div class="datatable-search right">
+                  <a class="search_btn btn waves-effect border-round grey-text white"><i class="material-icons grey-text left">search</i><span class="hide-on-med-and-down">Search</span></a>
+                  <a class="btn indigo darken-4 mb-1 waves-effect waves-light mr-1 right">
+                  <i class="material-icons left" style="margin-right:5px;">refresh</i>Refresh</a>
+                  <a class="btn indigo darken-4 mb-1 waves-effect waves-light right">
+                  <i class="material-icons left" style="margin-right:5px;">not_interested</i>Stop Checkout</a>
+                </div>
+              </div>
+              <div id="dataTables_section" class="col s12 m2">
+                <div class="dataTables_length show_text" id="page-length-option_length">
+                <label class="">
+                  Show
+                    <select class="" name="" style="margin-left:9%;">
+                      <option value="10">10</option>
+                      <option value="10">20</option>
+                      <option value="10">30</option>
+                    </select>
+                  entries
+                </label>  
+                </div>
+              </div> 
+            </div> -->
+
+            <div class="row">
+              <div class="col s12 mt-0 p-0">
+                <div class="col s6 right">
+                  <a class="btn indigo darken-4 mb-1 waves-effect waves-light mr-1 right">
+                  <i class="material-icons left mr-0">refresh</i><span class="hide-on-small-only">Refresh</span></a>
+                </div>
+                <div class="col s6 left">
+                  <div class="m-0">
+                    <div class="switch">
+                      <label style="font-size:16px; color:#1a237e;">Stop Checkout
+                        <input type="checkbox" />
+                        <span class="lever"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+            <div class="row">
+              <div class="col s12">
+                <table id="page-length-option" class="display">
+                <thead>
+                    <tr>
+                      <th>Order No.</th>
+                      <th>Name</th>
+                      <th>Total Items</th>
+                      <th>Amount</th>
+                      <th>Payment</th>
+                      <th>Status</th>
+                      <th>Message</th>
+                      <th>Shopping Cart</th>
+                      <th>View</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    <tr>
+                      <td>300</td>
+                      <td>
+                        <img src="{{asset('images/user/12.jpg')}}" alt="" class="circle" style="width: 30px; margin-bottom: -0.7rem; margin-right:1rem;"><span style="line-height: 4px;">Dean Stanley</span></td>
+                      </td>
+                      <td>12</td>
+                      <td>127.5</td>
+                      <td>General Payment</td>
+                      <td><span class="chip green lighten-5">
+                          <span class="green-text">Cart</span>
+                        </span>
+                      </td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">chat_bubble_outline</i></a></td>
+                      <td><a href="{{asset('page-users-edit')}}"><i class="material-icons" style="color:#b6b6b6;">shopping_cart</i></a></td>
+                      <td><a href="{{asset('page-users-view')}}"><i class="material-icons" style="color:#b6b6b6;">remove_red_eye</i></a></td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
   <!-- <div class="users-list-table">
     <div class="card">
@@ -411,7 +553,6 @@
     </div>
   </div> -->
 </section>
-<!-- users list ends -->
 @endsection
 
 {{-- vendor scripts --}}

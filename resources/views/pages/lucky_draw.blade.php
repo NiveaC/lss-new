@@ -19,7 +19,7 @@
 <div class="row mt-2">
   <div class="col s12 m12 l12 xl12">
     <a class="waves-block waves-light sidenav-trigger" href="#" data-target="prize_popup">
-      <span class="material-icons grey-text text-darken-3 small-ico-bg mb-1 right">more_horiz</span>
+      <span class="material-icons grey-text text-darken-3 small-ico-bg right">more_horiz</span>
     </a>
   </div>
 </div>

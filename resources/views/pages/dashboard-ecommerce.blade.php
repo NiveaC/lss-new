@@ -7,6 +7,7 @@
 {{-- page style --}}
 @section('page-style')
 <link rel="stylesheet" type="text/css" href="{{asset('css/pages/dashboard.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('css/pages/lss.css')}}">
 @endsection
 
 {{-- page content --}}
@@ -96,17 +97,79 @@
          <div id="top_campaign_content" class="col s12 m4 l4">
             <h4 class="header" style="text-transform: none">Top Campaign</h4>
             <ul id="issues-collection" class="collection z-depth-1">
-               <li class="collection-item">
+               <li class="collection-item campaign_ranking">
                   <div class="row">
-                     <!-- <div class="col s4 task_size orange accent-4">1st</div> -->
-                     <div class="col s2 mt-5"><span class="task-cat orange accent-4">1st</span></div>
-                     <div class="col s10">
+                     <div class="col s3 m3"><span class="task-cat deep-orange darken-3 white-text" style="padding: 4px 10px 10px 10px; font-weight:800; font-size: 2.5rem;">1</span></div>
+                     <div class="col s9 m9" style="">
+                        <h6 class="collections-title font-weight-600"><b>20211008</b></h6>
+                        <div class="collections-content" style="font-size: 14px;">Title01</div>
+                        <div class="" style="font-size: 14px;"><i class="material-icons blue-text text-lighten-4 left" style="font-size:5px; line-height:2; margin-right:3px;">fiber_manual_record</i> 2.3k viewers</div>
+                     </div>
+                  </div>
+               </li>
+               <li class="collection-item campaign_ranking">
+                  <div class="row">
+                     <div class="col s3 m3"><span class="task-cat deep-orange lighten-1 white-text" style="padding: 4px 10px 10px 10px; font-weight:800; font-size: 2.5rem;">2</span></div>
+                     <div class="col s9 m9" style="">
+                        <h6 class="collections-title font-weight-600"><b>20211008</b></h6>
+                        <div class="collections-content" style="font-size: 14px;">Title02</div>
+                        <div class="" style="font-size: 14px;"><i class="material-icons blue-text text-lighten-4 left" style="font-size:5px; line-height:2; margin-right:3px;">fiber_manual_record</i> 2.3k viewers</div>
+                     </div>
+                  </div>
+               </li>
+               <li class="collection-item campaign_ranking">
+                  <div class="row">
+                     <div class="col s3 m3"><span class="task-cat amber darken-2 white-text" style="padding: 4px 10px 10px 10px; font-weight:800; font-size: 2.5rem ">3</span></div>
+                     <div class="col s9 m9" style="">
+                        <h6 class="collections-title font-weight-600"><b>20211008</b></h6>
+                        <div class="collections-content" style="font-size: 14px;">Title03</div>
+                        <div class="" style="font-size: 14px;"><i class="material-icons blue-text text-lighten-4 left" style="font-size:5px; line-height:2; margin-right:3px;">fiber_manual_record</i> 2.3k viewers</div>
+                     </div>
+                  </div>
+               </li>
+               <li class="collection-item campaign_ranking">
+                  <div class="row">
+                     <div class="col s3 m3"><span class="task-cat yellow darken-2 white-text" style="padding: 4px 10px 10px 10px; font-weight:800; font-size: 2.5rem ">4</span></div>
+                     <div class="col s9 m9" style="">
+                        <h6 class="collections-title font-weight-600"><b>20211008</b></h6>
+                        <div class="collections-content" style="font-size: 14px;">Title04</div>
+                        <div class="" style="font-size: 14px;"><i class="material-icons blue-text text-lighten-4 left" style="font-size:5px; line-height:2; margin-right:3px;">fiber_manual_record</i> 2.3k viewers</div>
+                     </div>
+                  </div>
+               </li>
+               <!-- <li class="collection-item">
+                  <div class="row">
+                     <div class="col s2 m3 mt-2"><span class="task-cat cyan" style="padding: 10px 10px; font-weight:400; font-size: 2rem ">2</span></div>
+                     <div class="col s10 m9">
                         <p class="collections-title font-weight-600"><strong>20211008</strong></p>
                         <p class="collections-content">Title01</p>
+                        <p class="mb-1 mr-1"><i class="material-icons red-text left">fiber_manual_record</i> 2.3k viewers</p>
                      </div>
                   </div>
                </li>
                <li class="collection-item">
+                  <div class="row">
+                     <div class="col s2 m3 mt-2"><span class="task-cat red accent-2" style="padding: 10px 10px; font-weight:600; font-size: 2rem ">3</span></div>
+                     <div class="col s10 m9">
+                        <p class="collections-title font-weight-600"><strong>20211008</strong></p>
+                        <p class="collections-content">Title01</p>
+                        <p class="mb-1 mr-1"><i class="material-icons red-text left">fiber_manual_record</i> 2.3k viewers</p>
+                     </div>
+                  </div>
+               </li>
+               <li class="collection-item">
+                  <div class="row">
+                     <div class="col s2 m3 mt-2"><span class="task-cat green darken-4" style="padding: 10px 10px; font-weight:600; font-size: 2rem ">4</span></div>
+                     <div class="col s10 m9">
+                        <p class="collections-title font-weight-600"><strong>20211008</strong></p>
+                        <p class="collections-content">Title01</p>
+                        <p class="mb-1 mr-1"><i class="material-icons red-text left">fiber_manual_record</i> 2.3k viewers</p>
+                     </div>
+                  </div>
+               </li> -->
+
+
+               <!-- <li class="collection-item">
                   <div class="row">
                      <div class="col s2 mt-5"><span class="task-cat cyan">2nd</span></div>
                      <div class="col s7">
@@ -132,7 +195,7 @@
                         <p class="collections-content">Title03</p>
                      </div>
                   </div>
-               </li>
+               </li> -->
             </ul>
          </div>
       </div>

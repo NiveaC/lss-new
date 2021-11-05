@@ -83,8 +83,8 @@
                 <option value="1">1</option>
               </select>
             </div>
-            <div class="col s12 mt-5 mb-3 ">
-              <a class="waves-effect waves-light btn mb-1 mr-1 border-round right">Save</a>
+            <div class="col s12 mt-5 mb-3">
+              <a class="waves-effect waves-light btn mb-1 right">Save</a>
             </div>
           </div>
         </div>

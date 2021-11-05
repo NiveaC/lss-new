@@ -42,7 +42,7 @@
           <div class="row">
             <div class="col s12">
               <table id="page-length-option" class="display">
-              <thead>
+                <thead>
                   <tr>
                     <th>Image</th>
                     <th>Name</th>

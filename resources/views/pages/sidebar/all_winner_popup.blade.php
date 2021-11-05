@@ -40,7 +40,7 @@
                   <thead>
                     <tr>
                       <th data-field="id">Time</th>
-                      <th data-field="name">Photo</th>
+                      <th data-field="name"></th>
                       <th data-field="price">Name</th>
                       <th data-field="price">Prize</th>
                       <th data-field="price">Status</th>

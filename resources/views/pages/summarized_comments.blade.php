@@ -19,15 +19,15 @@
 <div id="summarized_comments">
   <div id="card-with-analytics" class="section">
     <div id="comments_row" class="row">
-      <div class="col s12 mt-0 right-align">
-        <a class="btn indigo darken-4 mb-1 waves-effect waves-light mr-1">
+      <div class="col s12 mt-1 right-align">
+        <a class="btn indigo darken-4 waves-effect waves-light">
           <i class="material-icons left" style="margin-right:5px;">refresh</i>Refresh</a>
       </div>
       <div class="col s12 m6 l3 card-width commments_card">
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">paid</span>
                 </div>
@@ -75,7 +75,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">local_shipping</span>
                 </div>
@@ -123,7 +123,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">assignment_return</span>
                 </div>
@@ -171,7 +171,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">contact_support</span>
                 </div>
@@ -219,7 +219,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">paid</span>
                 </div>
@@ -267,7 +267,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">paid</span>
                 </div>
@@ -315,7 +315,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">paid</span>
                 </div>
@@ -363,7 +363,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">paid</span>
                 </div>
@@ -411,7 +411,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">local_shipping</span>
                 </div>
@@ -459,7 +459,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">paid</span>
                 </div>
@@ -507,7 +507,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">contact_support</span>
                 </div>
@@ -555,7 +555,7 @@
         <div class="card border-radius-6">
           <div class="card-content">
             <a class="waves-effect waves-block waves-light black-text sidenav-trigger" href="#" data-target="comments_popup">
-              <div class="row mb-8">
+              <div class="row mb-5">
                 <div class="col s3 m2 l2">
                   <span class="material-icons amber-text small-ico-bg">assignment_return</span>
                 </div>
