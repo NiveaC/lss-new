@@ -21,12 +21,12 @@
 
 {{-- page content --}}
 @section('content')
-<div class="row reply_btn">
-  <div class="col s12 mt-2 right-align">
-    <a class="waves-effect indigo darken-4 btn"><i class="material-icons left" style="margin-right:0;">add</i>Create</a>
+<div class="row reply_btn top_content">
+  <div class="col s12 right-align">
+    <a class="waves-effect indigo darken-4 btn"><i class="material-icons left" style="margin-right:5px;">add</i>Create</a>
   </div>
 </div>
-<div class="section section-data-tables campaign">
+<div class="section section-data-tables">
   <div class="row">
     <div class="col s12">
       <div class="card">
@@ -40,7 +40,8 @@
                     <th>Keywords to Detect</th>
                     <th>Set Automated Response</th>
                     <th>Remark</th>
-                    <th>Action</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -50,58 +51,82 @@
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">border_color</span>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                      <span class="material-icons action_icon">border_color</span>
+                    </td>
+                    <td>
+                      <span class="material-icons action_icon">delete</span></span>
                     </td>
                   </tr>
                   <tr>
                     <td>23</td>
                     <td>remove</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
-                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non perspiciatis nemo maiores nihil autem repellendus molestiae aperiam recusandae asperiores sit nobis qui magni repudiandae, amet dignissimos molestias? Accusantium, consectetur?</td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">border_color</span>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                      <span class="material-icons action_icon">border_color</span>
+                    </td>
+                    <td>
+                      <span class="material-icons action_icon">delete</span></span>
                     </td>
                   </tr>
                   <tr>
                     <td>23</td>
                     <td>remove</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
-                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non perspiciatis nemo maiores nihil autem repellendus molestiae aperiam recusandae asperiores sit nobis qui magni repudiandae, amet dignissimos molestias? Accusantium, consectetur?</td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">border_color</span>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                      <span class="material-icons action_icon">border_color</span>
+                    </td>
+                    <td>
+                      <span class="material-icons action_icon">delete</span></span>
                     </td>
                   </tr>
                   <tr>
                     <td>23</td>
                     <td>remove</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
-                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non perspiciatis nemo maiores nihil autem repellendus molestiae aperiam recusandae asperiores sit nobis qui magni repudiandae, amet dignissimos molestias? Accusantium, consectetur?</td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">border_color</span>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                      <span class="material-icons action_icon">border_color</span>
+                    </td>
+                    <td>
+                      <span class="material-icons action_icon">delete</span></span>
                     </td>
                   </tr>
                   <tr>
                     <td>23</td>
                     <td>remove</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
-                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non perspiciatis nemo maiores nihil autem repellendus molestiae aperiam recusandae asperiores sit nobis qui magni repudiandae, amet dignissimos molestias? Accusantium, consectetur?</td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>
-                      <span class="material-icons" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons action_icon">border_color</span>
+                    </td>
+                    <td>
+                      <span class="material-icons action_icon">delete</span></span>
                     </td>
                   </tr>
                   <tr>
                     <td>23</td>
                     <td>remove</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
-                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non perspiciatis nemo maiores nihil autem repellendus molestiae aperiam recusandae asperiores sit nobis qui magni repudiandae, amet dignissimos molestias? Accusantium, consectetur?</td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
                     <td>
-                      <span class="material-icons" style="color:#3949ab;">border_color</span>
-                      <span class="material-icons" style="color:#3949ab;">delete</span></span>
+                      <span class="material-icons action_icon">border_color</span>
+                    </td>
+                    <td>
+                      <span class="material-icons action_icon">delete</span></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>23</td>
+                    <td>remove</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </td>
+                    <td>
+                      <span class="material-icons action_icon">border_color</span>
+                    </td>
+                    <td>
+                      <span class="material-icons action_icon">delete</span></span>
                     </td>
                   </tr>
                 </tbody>

@@ -21,20 +21,6 @@
 
 {{-- page content --}}
 @section('content')
-<!-- 原版功能列 -->
-<!-- <div class="row mt-3">
-  <div class="col s12 m12 l12 pr-0">
-    <div class="col s12 m7 l9 xl7">
-      <a class="btn_style waves-effect waves-light btn mb-1 mr-1" style="border-radius:30pt;">For Sale</a>
-      <a class="btn_style waves-effect waves-light btn mb-1 mr-1" style="border-radius:30pt; background-color:#ffffff; color:#ff4081;">Disable</a>
-      <a class="btn_style waves-effect waves-light btn mb-1 mr-1" style="border-radius:30pt; background-color:#ffffff; color:#ff4081;">Archive</a>
-    </div>
-    <div class="col s12 m4 offset-m1 l3 xl3 offset-xl2 right-align">
-      <a class="btn waves-effect indigo darken-4 mb-1 mr-1"><i class="material-icons left" style="margin-right:0;">add</i>Add Item</a>
-    </div>
-  </div>
-</div> -->
-
 <div id="tabs-in-card inventory_content" class="section">
   <div class="row">
     <div class="col s12">
@@ -42,24 +28,27 @@
         <div class="row mt-2">
           <div class="col s12 m12 l12 mt-2">
             <div class="col s12">
-              <div id="inventory_tab" class="card-tabs" style="border-bottom:1px solid #cfd8dc;">
-                <ul class="tabs">
-                  <li class="tab"><a href="#test4" style="text-transform:none;">For Sale</a></li>
-                  <li class="tab"><a class="active" href="#test5" style="text-transform:none;">Disable</a></li>
-                  <li class="tab"><a href="#test6" style="text-transform:none;">Archie</a></li>
+              <div class="card-tabs">
+                <ul class="tabs inventory_tab">
+                  <li class="tab"><a href="#for_sale">For Sale</a></li>
+                  <li class="tab"><a class="active" href="#disable">Disable</a></li>
+                  <li class="tab"><a href="#archie">Archie</a></li>
                 </ul>
               </div>
             </div>  
           </div>
         </div>
-        <div class="col s12 m12 l12" style="padding-left:7px;"> 
-          <div id="inventory_btn" class="col s12 m9 right">
+        <div class="col s12 m12 l12 pl-1"> 
+          <div id="inventory_btn" class="col s12 m8 right">
             <div class="datatable-search right">
-              <a class="search_btn btn waves-effect border-round grey-text white"><i class="material-icons grey-text left show-on-small">search</i><span class="hide-on-med-and-down">Search</span></a>
+              <div class="input-field inline">
+                <a class="btn-floating white right"><i class="material-icons grey-text left show-on-small">search</i></a>
+                <!-- <label for="email" data-error="wrong" data-success="">search</label> -->
+              </div>
               <a class="add_btn btn waves-effect indigo darken-4 right"><i class="material-icons left show-on-small" style="margin-right:5px;">add</i><span class="hide-on-med-and-down">Add Item</span></a>
             </div>
           </div>
-          <div id="dataTables_section" class="col s12 m3">
+          <div class="col s12 m4">
             <div class="dataTables_length show_text" id="page-length-option_length">
             <label class="">
               Show
@@ -76,10 +65,10 @@
         
         <div class="divider" style="margin-top:-1%;"></div>
 
-        <div class="card-content">
-          <div id="test5" style="background-color:#ffffff;">
+        <div id="inventory_table" class="card-content">
+          <div id="disable">
             <div class="section section-data-tables">
-              <div class="row" style="background-color:#ffffff;">
+              <div class="row">
                 <div class="col s12">
                   <div class="row">
                     <div class="col s12">
@@ -100,7 +89,7 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
                             <td>Fruit Tart</td>
                             <td>FT</td>
                             <td>Tart</td>
@@ -109,14 +98,14 @@
                             <td>3</td>
                             <td>25.5</td>
                             <td>
-                              <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon mr-10">border_color</span>
                             </td>
                             <td> 
-                              <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                              <span class="material-icons action_icon">delete</span></span>
                             </td>
                           </tr>
                           <tr>
-                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
                             <td>Fruit Tart</td>
                             <td>FT</td>
                             <td>Tart</td>
@@ -125,14 +114,14 @@
                             <td>3</td>
                             <td>25.5</td>
                             <td>
-                              <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon mr-10">border_color</span>
                             </td>
                             <td> 
-                              <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                              <span class="material-icons action_icon">delete</span></span>
                             </td>
                           </tr>
                           <tr>
-                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
                             <td>Fruit Tart</td>
                             <td>FT</td>
                             <td>Tart</td>
@@ -141,14 +130,14 @@
                             <td>3</td>
                             <td>25.5</td>
                             <td>
-                              <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon mr-10">border_color</span>
                             </td>
                             <td> 
-                              <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                              <span class="material-icons action_icon">delete</span></span>
                             </td>
                           </tr>
                           <tr>
-                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
                             <td>Fruit Tart</td>
                             <td>FT</td>
                             <td>Tart</td>
@@ -157,14 +146,14 @@
                             <td>3</td>
                             <td>25.5</td>
                             <td>
-                              <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon mr-10">border_color</span>
                             </td>
                             <td> 
-                              <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                              <span class="material-icons action_icon">delete</span></span>
                             </td>
                           </tr>
                           <tr>
-                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
                             <td>Fruit Tart</td>
                             <td>FT</td>
                             <td>Tart</td>
@@ -173,14 +162,14 @@
                             <td>3</td>
                             <td>25.5</td>
                             <td>
-                              <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon mr-10">border_color</span>
                             </td>
                             <td> 
-                              <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                              <span class="material-icons action_icon">delete</span></span>
                             </td>
                           </tr>
                           <tr>
-                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
                             <td>Fruit Tart</td>
                             <td>FT</td>
                             <td>Tart</td>
@@ -189,14 +178,14 @@
                             <td>3</td>
                             <td>25.5</td>
                             <td>
-                              <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon mr-10">border_color</span>
                             </td>
                             <td> 
-                              <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                              <span class="material-icons action_icon">delete</span></span>
                             </td>
                           </tr>
                           <tr>
-                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
                             <td>Fruit Tart</td>
                             <td>FT</td>
                             <td>Tart</td>
@@ -205,14 +194,14 @@
                             <td>3</td>
                             <td>25.5</td>
                             <td>
-                              <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon mr-10">border_color</span>
                             </td>
                             <td> 
-                              <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                              <span class="material-icons action_icon">delete</span></span>
                             </td>
                           </tr>
                           <tr>
-                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
                             <td>Fruit Tart</td>
                             <td>FT</td>
                             <td>Tart</td>
@@ -221,14 +210,14 @@
                             <td>3</td>
                             <td>25.5</td>
                             <td>
-                              <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon mr-10">border_color</span>
                             </td>
                             <td> 
-                              <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                              <span class="material-icons action_icon">delete</span></span>
                             </td>
                           </tr>
                           <tr>
-                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
                             <td>Fruit Tart</td>
                             <td>FT</td>
                             <td>Tart</td>
@@ -237,14 +226,14 @@
                             <td>3</td>
                             <td>25.5</td>
                             <td>
-                              <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon mr-10">border_color</span>
                             </td>
                             <td> 
-                              <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                              <span class="material-icons action_icon">delete</span></span>
                             </td>
                           </tr>
                           <tr>
-                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
                             <td>Fruit Tart</td>
                             <td>FT</td>
                             <td>Tart</td>
@@ -253,13 +242,29 @@
                             <td>3</td>
                             <td>25.5</td>
                             <td>
-                              <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon mr-10">border_color</span>
                             </td>
                             <td> 
-                              <span class="material-icons" style="color:#b6b6b6;">delete</span></span>
+                              <span class="material-icons action_icon">delete</span></span>
                             </td>
                           </tr>
-                        
+                          <tr>
+                            <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px" alt=""></td>
+                            <td>Fruit Tart</td>
+                            <td>FT</td>
+                            <td>Tart</td>
+                            <td>300</td>
+                            <td>25.5</td>
+                            <td>3</td>
+                            <td>25.5</td>
+                            <td>
+                              <span class="material-icons action_icon mr-10">border_color</span>
+                            </td>
+                            <td> 
+                              <span class="material-icons action_icon">delete</span></span>
+                            </td>
+                          </tr>
+                          
                         </tbody>
                       </table>
                     </div>
@@ -268,7 +273,7 @@
               </div>
             </div>
           </div>
-          <div id="test6">Revolutionary, expose the truth shine benefit corporation, activate
+          <div id="archie">Revolutionary, expose the truth shine benefit corporation, activate
             incubator revolutionary co-create.
           </div>
         </div>

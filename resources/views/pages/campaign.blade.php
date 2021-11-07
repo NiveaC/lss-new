@@ -21,47 +21,36 @@
 
 {{-- page content --}}
 @section('content')
-<!-- 原本功能列 -->
-<!-- <div class="row campaign_btn mt-2">
-  <div class="col s12 m12 l12 pr-0">
-    <div class="col s12 m7 l9 xl7">
-      <a class="waves-effect waves-light btn mt-2 mr-1" style="border-radius:30pt;">Scheduled</a>
-      <a class="waves-effect waves-light btn mt-2 mr-1" style="border-radius:30pt; background-color:#ffffff; color:#ff4081;">History</a>
-    </div>
-    <div class="col s12 m4 offset-m1 l3 xl3 offset-xl2 mt-1 right-align">
-      <a class="btn waves-effect indigo darken-4 mb-3 mr-1"><i class="material-icons left" style="margin-right:0;">add</i>Create</a>
-      <span><img src="{{asset('images/lss-icon/questions01.png')}}" class="responsive-img right" style="width:30px; height:30px;" alt="Guideline"></span>
-    </div>
-  </div>
-</div> -->
-
-<div class="col s12 mt-2 right-align">
-  <a><img src="{{asset('images/lss-icon/questions.png')}}" class="responsive-img" style="width:25px; height:25px; margin-bottom: -0.5rem;" alt="Guideline"><span class="right-align black-text mb-3">Getting Started</span></a>
+<div class="col s12 right-align top_content" >
+  <a><img src="{{asset('images/lss-icon/questions.png')}}" class="responsive-img" alt="Guideline"><span class="black-text mb-3">Getting Started</span></a>
 </div>
 <div id="tabs-in-card inventory_content" class="section">
   <div class="row">
     <div class="col s12">
       <div class="card">
         <div class="row mt-2">
-          <div class="col s12 m12 l12 mt-2">
+          <div class="col s12 mt-2">
             <div class="col s12">
-              <div id="inventory_tab" class="card-tabs" style="border-bottom:1px solid #cfd8dc;">
-                <ul class="tabs">
-                  <li class="tab"><a href="#scheduled" style="text-transform:none;">Scheduled</a></li>
-                  <li class="tab"><a class="active" href="#history" style="text-transform:none;">History</a></li>
+              <div class="card-tabs">
+                <ul class="tabs inventory_tab">
+                  <li class="tab"><a href="#scheduled">Scheduled</a></li>
+                  <li class="tab"><a class="active" href="#history">History</a></li>
                 </ul>
               </div>
             </div>  
           </div>
         </div>
-        <div class="col s12 m12 l12" style="padding-left:7px;"> 
-          <div id="inventory_btn" class="col s12 m9 right">
+        <div class="col s12 pl-1"> 
+          <div id="inventory_btn" class="col s12 m8 right">
             <div class="datatable-search right">
-              <a class="search_btn btn waves-effect border-round grey-text white"><i class="material-icons grey-text left">search</i><span class="hide-on-med-and-down">Search</span></a>
+              <div class="input-field inline">
+                <a class="btn-floating white right"><i class="material-icons grey-text left show-on-small">search</i></a>
+                <!-- <label for="email" data-error="wrong" data-success="">search</label> -->
+              </div>
               <a class="add_btn btn waves-effect indigo darken-4 right"><i class="material-icons left show-on-small" style="margin-right:5px;">add</i><span class="hide-on-med-and-down">Add Item</span></a>
             </div>
           </div>
-          <div id="dataTables_section" class="col s12 m3">
+          <div id="dataTables_section" class="col s12 m4">
             <div class="dataTables_length show_text" id="page-length-option_length">
             <label class="">
               Show
@@ -78,7 +67,7 @@
 
         <div class="divider" style="margin-top:-1%;"></div>
 
-        <div id="campaign_content " class="card-content">
+        <div id="campaign_content" class="card-content">
           <div id="history">
             <div class="section section-data-tables">
               <div class="row">
@@ -107,16 +96,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -127,16 +116,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -147,16 +136,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -167,16 +156,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -187,16 +176,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -207,16 +196,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -227,16 +216,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -247,16 +236,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -267,16 +256,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -287,16 +276,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -307,16 +296,16 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
                           </tr>
                           <tr>
@@ -327,18 +316,19 @@
                             <td>2021/10/10</td>
                             <td>2021/10/15</td>
                             <td>
-                              <span class="material-icons">link</span>
+                              <span class="material-icons action_icon">link</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">list_alt</span>
+                              <span class="material-icons action_icon">list_alt</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">local_offer</span>
+                              <span class="material-icons action_icon">local_offer</span>
                             </td>
                             <td>
-                              <span class="material-icons" style="color:#b6b6b6;">border_color</span>
+                              <span class="material-icons action_icon">border_color</span>
                             </td>
-                          </tr> 
+                          </tr>
+                          
                         </tbody>
                       </table>
                     </div>

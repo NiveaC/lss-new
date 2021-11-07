@@ -31,7 +31,7 @@
           <div class="row">
             <div class="col s12">
               <div class="col s12 m6 l5">
-                <img src="{{asset('images/prize.png')}}" alt="" class="responsive-img"style=""/>
+                <img src="{{asset('images/prize.png')}}" class="responsive-img" />
               </div>
               <div class="col s12 m6 l7 mt-8 pr-6 prize_content">
                 <table>

@@ -40,27 +40,27 @@
                   <label >Name</label>
                 </div>
                 <div class="col s12 m2 l2 input-field">
-                  <input id="username" name="username" type="text" class="validate" value="CK"
+                  <input id="order_code" name="username" type="text" class="validate" value="CK"
                     data-error=".errorTxt3">
                   <label for="order code">Order Code</label>
                   <small class="errorTxt3"></small>
                 </div>
                 <div class="col s6 m2 l2 input-field">
-                  <input id="name" name="campaign qty" type="text" class="validate" value="300"
+                  <input id="campaign_qty" name="campaign qty" type="text" class="validate" value="300"
                     data-error=".errorTxt3">
                   <label for="campaign qty">Campaign Q'ty</label>
                   <small class="errorTxt3"></small>
                 </div>
                 <div class="col s6 m2 l2 input-field">
-                  <input id="email" name="max order qty" type="text" class="validate" value="3"
+                  <input id="max_order_qty" name="max order qty" type="text" class="validate" value="3"
                     data-error=".errorTxt3">
                   <label for="max order qty">Max Order Q'ty</label>
                   <small class="errorTxt3"></small>
                 </div>
                 <div class="col s6 m2 l2">
-                  <label for="max order qty">Allow Customer</label>
+                  <label>Allow Customer</label>
                   <p>
-                  <div class="" style="margin-top:0.5vh;">
+                  <div class="edit_style">
                     <label>
                       <input class="validate" required id="tnc_select1" type="checkbox" />
                       <span>Edit Item</span>
@@ -68,11 +68,10 @@
                   </div>
                   </p>
                 </div>
-                <div class="col s6 m2 l2 right-align" style="margin-top:3.4vh;">
-                  <label for="max order qty"></label>
+                <div class="col s6 m2 l2 right-align delete_style">
                   <p>
                   <label>
-                    <input class="validate" required id="tnc_select1" type="checkbox" />
+                    <input class="" required id="tnc_select1" type="checkbox" />
                     <span>Delete Item</span>
                   </label>
                   </p>
@@ -96,7 +95,7 @@
         <div class="card-content">
           <div class="row">
             <div class="col s12">
-              <table id="page-length-option" class="display" style="background-color:none; width:100%;display:block; overflow-x:auto;white-space:nowrap;" >
+              <table id="page-length-option" class="display">
               <thead>
                   <tr>
                     <th>Image</th>
@@ -114,7 +113,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
                     <td>Fruit Tart</td>
                     <td>FT</td>
                     <td>Tart</td>
@@ -124,14 +123,14 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons action_icon">border_color</span>
                     </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span>
+                      <span class="material-icons  action_icon">delete</span>
                     </td>
                   </tr>
                   <tr>
-                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
                     <td>Fruit Tart</td>
                     <td>FT</td>
                     <td>Tart</td>
@@ -141,14 +140,14 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons action_icon">border_color</span>
                     </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span>
+                      <span class="material-icons  action_icon">delete</span>
                     </td>
                   </tr>
                   <tr>
-                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
                     <td>Fruit Tart</td>
                     <td>FT</td>
                     <td>Tart</td>
@@ -158,14 +157,14 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons action_icon">border_color</span>
                     </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span>
+                      <span class="material-icons  action_icon">delete</span>
                     </td>
                   </tr>
                   <tr>
-                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
                     <td>Fruit Tart</td>
                     <td>FT</td>
                     <td>Tart</td>
@@ -175,14 +174,14 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons action_icon">border_color</span>
                     </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span>
+                      <span class="material-icons  action_icon">delete</span>
                     </td>
                   </tr>
                   <tr>
-                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
                     <td>Fruit Tart</td>
                     <td>FT</td>
                     <td>Tart</td>
@@ -192,14 +191,14 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons action_icon">border_color</span>
                     </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span>
+                      <span class="material-icons  action_icon">delete</span>
                     </td>
                   </tr>
                   <tr>
-                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
                     <td>Fruit Tart</td>
                     <td>FT</td>
                     <td>Tart</td>
@@ -209,14 +208,14 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons action_icon">border_color</span>
                     </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span>
+                      <span class="material-icons  action_icon">delete</span>
                     </td>
                   </tr>
                   <tr>
-                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
                     <td>Fruit Tart</td>
                     <td>FT</td>
                     <td>Tart</td>
@@ -226,14 +225,14 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons action_icon">border_color</span>
                     </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span>
+                      <span class="material-icons  action_icon">delete</span>
                     </td>
                   </tr>
                   <tr>
-                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
                     <td>Fruit Tart</td>
                     <td>FT</td>
                     <td>Tart</td>
@@ -243,14 +242,14 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons action_icon">border_color</span>
                     </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span>
+                      <span class="material-icons  action_icon">delete</span>
                     </td>
                   </tr>
                   <tr>
-                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
                     <td>Fruit Tart</td>
                     <td>FT</td>
                     <td>Tart</td>
@@ -260,14 +259,14 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons action_icon">border_color</span>
                     </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span>
+                      <span class="material-icons  action_icon">delete</span>
                     </td>
                   </tr>
                   <tr>
-                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"alt=""></td>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
                     <td>Fruit Tart</td>
                     <td>FT</td>
                     <td>Tart</td>
@@ -277,13 +276,29 @@
                     <td>v</td>
                     <td>v</td>
                     <td>
-                      <span class="material-icons mr-10" style="color:#b6b6b6;">border_color</span>
+                      <span class="material-icons action_icon">border_color</span>
                     </td>
                     <td>
-                      <span class="material-icons" style="color:#b6b6b6;">delete</span>
+                      <span class="material-icons  action_icon">delete</span>
                     </td>
                   </tr>
-                  
+                  <tr>
+                    <td><img class="responsive-img circle" src="{{asset('images/fruit tart.jpg')}}" width="45px"></td>
+                    <td>Fruit Tart</td>
+                    <td>FT</td>
+                    <td>Tart</td>
+                    <td>300</td>
+                    <td>25.5</td>
+                    <td>3</td>
+                    <td>v</td>
+                    <td>v</td>
+                    <td>
+                      <span class="material-icons action_icon">border_color</span>
+                    </td>
+                    <td>
+                      <span class="material-icons  action_icon">delete</span>
+                    </td>
+                  </tr>
                 </tbody>
               </table>
             </div>

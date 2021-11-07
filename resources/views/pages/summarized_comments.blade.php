@@ -19,9 +19,9 @@
 <div id="summarized_comments">
   <div id="card-with-analytics" class="section">
     <div id="comments_row" class="row">
-      <div class="col s12 mt-1 right-align">
-        <a class="btn indigo darken-4 waves-effect waves-light">
-          <i class="material-icons left" style="margin-right:5px;">refresh</i>Refresh</a>
+      <div class="col s12 right-align top_content">
+        <a class="btn indigo darken-4 waves-effect rwd_icon">
+          <i class="material-icons left" style="margin-right:5px;">refresh</i><span class="hide-on-small-only">Refresh</span></a>
       </div>
       <div class="col s12 m6 l3 card-width commments_card">
         <div class="card border-radius-6">
@@ -36,7 +36,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -84,7 +84,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -132,7 +132,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -180,7 +180,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -228,7 +228,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -276,7 +276,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -324,7 +324,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -372,7 +372,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -420,7 +420,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -468,7 +468,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -516,7 +516,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>
@@ -564,7 +564,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col s12 left" style="">
+                <div class="col s12 left">
                   <h6 class="grey-text comments_no">1,342 comments</h6>
                 </div>
               </div>

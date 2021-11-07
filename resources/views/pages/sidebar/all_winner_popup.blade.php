@@ -14,9 +14,9 @@
 
 <!-- START RIGHT SIDEBAR NAV -->
 <aside id="all_winner_popup_right">
-  <div id="all_winner_popup" class="all_winner_popup sidenav rightside-navigation">
+  <div id="all_winner_popup" class="all_winner_popup_sidenav sidenav rightside-navigation">
     <div class="row">
-      <div class="slide-out-right-title">
+      <div class="all_winner_popup-title">
         <div class="col s12 border-bottom-1 pb-0 pt-1">
           <div class="row">
             <div class="col s2 pr-0 pt-1 center">
@@ -28,83 +28,83 @@
           </div>
         </div>
       </div>
-      <div class="row slide-out-right-body pl-3">
-      <div class="row">
-    <div class="col s12">
-      <div id="borderless-table" class="card card-tabs">
-        <div class="card-content">
-          <div id="view-borderless-table">
-            <div class="row">
-              <div class="col s12">
-                <table>
-                  <thead>
-                    <tr>
-                      <th data-field="id">Time</th>
-                      <th data-field="name"></th>
-                      <th data-field="price">Name123</th>
-                      <th data-field="price">Prize</th>
-                      <th data-field="price">Status</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>12/10/2021</td>
-                      <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
-                      <td>Frank Goodman</td>
-                      <td>Cup Cake</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>12/10/2021</td>
-                      <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
-                      <td>Frank Goodman</td>
-                      <td>Cup Cake</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>12/10/2021</td>
-                      <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
-                      <td>Frank Goodman</td>
-                      <td>Cup Cake</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>12/10/2021</td>
-                      <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
-                      <td>Frank Goodman</td>
-                      <td>Cup Cake</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>12/10/2021</td>
-                      <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
-                      <td>Frank Goodman</td>
-                      <td>Cup Cake</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>12/10/2021</td>
-                      <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
-                      <td>Frank Goodman</td>
-                      <td>Cup Cake</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>12/10/2021</td>
-                      <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
-                      <td>Frank Goodman</td>
-                      <td>Cup Cake</td>
-                      <td></td>
-                    </tr>                  
-                  </tbody>
-                </table>
+      <div class="row all_winner_popup-body pl-3">
+        <div class="row">
+          <div class="col s12">
+            <div id="borderless-table" class="card">
+              <div class="card-content">
+                <div id="view-borderless-table">
+                  <div class="row">
+                    <div class="col s12">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th data-field="id">Time</th>
+                            <th data-field="photo">Photo</th>
+                            <th data-field="name">Name</th>
+                            <th data-field="prize">Prize</th>
+                            <th data-field="status">Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>12/10/2021</td>
+                            <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
+                            <td>Frank Goodman</td>
+                            <td>Cup Cake</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>12/10/2021</td>
+                            <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
+                            <td>Frank Goodman</td>
+                            <td>Cup Cake</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>12/10/2021</td>
+                            <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
+                            <td>Frank Goodman</td>
+                            <td>Cup Cake</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>12/10/2021</td>
+                            <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
+                            <td>Frank Goodman</td>
+                            <td>Cup Cake</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>12/10/2021</td>
+                            <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
+                            <td>Frank Goodman</td>
+                            <td>Cup Cake</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>12/10/2021</td>
+                            <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
+                            <td>Frank Goodman</td>
+                            <td>Cup Cake</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>12/10/2021</td>
+                            <td><img class="responsive-img circle" src="{{asset('images/user/2.jpg')}}" width="30px"alt=""></td>
+                            <td>Frank Goodman</td>
+                            <td>Cup Cake</td>
+                            <td></td>
+                          </tr>                  
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
       </div>
     </div>
   </div>

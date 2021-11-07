@@ -16,7 +16,7 @@
 
 {{-- page content --}}
 @section('content')
-<div class="row mt-2">
+<div class="row top_content">
   <div class="col s12 m12 l12">
     <a class="waves-block waves-light sidenav-trigger" href="#" data-target="prize_popup">
       <span class="material-icons grey-text text-darken-3 small-ico-bg right">more_horiz</span></a>
@@ -32,7 +32,7 @@
             <div class="col s12">
               <h5 class="center mb-2">Prize</h5>
               <div class="col s12 m12 l12 center">
-                <img src="{{asset('images/prize1.png')}}" alt="" class="responsive-img circle" width="130" style=""/>
+                <img src="{{asset('images/prize1.png')}}" class="responsive-img circle" width="130" />
                 <br>
                 <div class="mt-1">Cup Cake</div>
               </div>
@@ -43,87 +43,86 @@
           <h5 class="center mt-3">Prize Winner</h5>
           <div class="row prize_winner">
             <div class="col s12 m12 l12">
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" >
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" >
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              <div class="col s12 m4 l3 center-align mt-4">
-                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}" alt="">
+              <div class="col s12 m4 l3 center-align mt-5">
+                <img class="responsive-img circle z-depth-2" width="120" src="{{asset('images/user/12.jpg')}}">
                 <br>
-                <div class="winner_name mt-1"> Name</div>
+                <div class="winner_name"> Name</div>
               </div>
-              
             </div>
           </div>
         </div>
