@@ -98,7 +98,7 @@
               <table id="page-length-option" class="display">
               <thead>
                   <tr>
-                    <th>Image</th>
+                    <th>Image123</th>
                     <th>Name</th>
                     <th>Order Code</th>
                     <th>Type</th>
